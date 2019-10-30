@@ -1,0 +1,39 @@
+<resources>
+    <string name="tips_not_wifi">اینترنت wifi متصل نیست و برای ادامه ی این بخش باید از اینترنت همراه استفاده کنیم. مشکلی
+        نیست؟
+    </string>
+    <string name="tips_not_wifi_confirm">ادامه</string>
+    <string name="tips_not_wifi_cancel">توقف</string>
+    <string name="no_url">آدرس یافت نشد</string>
+    <string name="replay">تکرار</string>
+    <string name="click_to_restart">پخش مجدد</string>
+    <string name="video_loading_failed">خطا در بارگذاری ویدیو</string>
+    <!---->
+    <string name="app_name">Vasni</string>
+    <string name="done">تایید</string>
+    <string name="tedbottompicker_title">انتخاب تصویر</string>
+    <string name="no_image">لیست تصاویر دستگاه شما خالی است.</string>
+    <string name="select_max_count">Already %1$d images selected</string>
+    <string name="select_min_count">You have to choice %1$d images</string>
+    <!--Permission-->
+    <string name="permission_storage">دسترسی به حافظه</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_camera">Camera</string>
+    <string name="permission_dialog_title">Start %s</string>
+    <string name="permission_dialog_msg">For your normal use %s, you need the following permissions</string>
+    <string name="permission_title">%s</string>
+    <string name="permission_denied">برای استفاده از تمامی امکانات برنامه می بایست دسترسی خواسته شده داده شود.</string>
+    <string name="permission_denied_with_naac">"Please open permissions before using.\n\nSetup path:
+        Apps->%3$s->Permissions"
+    </string>
+    <string name="permission_cancel">بیخیال</string>
+    <string name="permission_ensure">باشه</string>
+    <string name="permission_reject">رد کردن</string>
+    <string name="permission_btn_next">اجازه بده</string>
+    <string name="permission_go_to_setting">رفتن به تنظیمات</string>
+    <string name="loadingIcon">&#xe801;</string>
+    <string name="playIcon">&#xe802;</string>
+    <string name="stopIcon">&#xe803;</string>
+    <string name="default_notification_channel_id">default_channel</string>
+
+</resources>

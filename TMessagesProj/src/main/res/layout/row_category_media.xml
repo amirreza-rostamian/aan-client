@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_cat_media"
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_70sdp">
+
+    <LinearLayout
+        android:id="@+id/llCategoryContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgCategoryIcon"
+            android:layout_width="@dimen/_97sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:background="@color/white"
+            android:clickable="false"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/txtCategoryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img_nav_tab_media"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            app:srcCompat="@color/colorGreen" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

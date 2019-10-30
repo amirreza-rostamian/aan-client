@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="jz_fullscreen_id" type="id" />
+    <item name="jz_tiny_id" type="id" />
+    <item name="bb_bottom_bar_color_id" type="id" />
+    <item name="bb_bottom_bar_appearance_id" type="id" />
+    <item name="statusbarutil_fake_status_bar_view" type="id" />
+    <item name="statusbarutil_translucent_view" type="id" />
+    <item name="moretype_item_viewtype" type="id" />
+</resources>

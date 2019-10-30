@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_8sdp">
+
+
+    <me.himanshusoni.chatmessageview.ui.MTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:text="ستاره کسب شده"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_14sdp" />
+
+    <me.himanshusoni.chatmessageview.ui.MTextView
+        android:id="@+id/txt_count_star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:text="خطا در برقراری ارتباط با سرور"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_16sdp" />
+
+    <me.himanshusoni.chatmessageview.ui.MTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:text="تعداد پاسخ های درست"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_14sdp" />
+
+    <me.himanshusoni.chatmessageview.ui.MTextView
+        android:id="@+id/txt_count_correct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center"
+        android:padding="@dimen/_2sdp"
+        android:text="خطا در برقراری ارتباط با سرور"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_16sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:orientation="horizontal">
+
+
+        <me.himanshusoni.chatmessageview.ui.MButton
+            android:id="@+id/btnOk"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="4.0dip"
+            android:layout_marginTop="12.0dip"
+            android:layout_marginRight="16.0dip"
+            android:layout_marginBottom="12.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/shape_btn_next"
+            android:gravity="center"
+            android:text="باشه"
+            android:textColor="@android:color/white"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

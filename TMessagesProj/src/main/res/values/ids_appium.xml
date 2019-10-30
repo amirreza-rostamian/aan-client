@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="first_name" type="id" />
+    <item name="last_name" type="id" />
+    <item name="wrong_number" type="id" />
+    <item name="code_field" type="id" />
+    <item name="cancel" type="id" />
+    <item name="reset_account" type="id" />
+    <item name="reset_account_time" type="id" />
+    <item name="progress_bar" type="id" />
+    <item name="timer" type="id" />
+    <item name="code_not_came" type="id" />
+    <item name="select_country" type="id" />
+    <item name="phone_number_field" type="id" />
+    <item name="sync_contacts" type="id" />
+    <item name="done_button" type="id" />
+    <item name="container" type="id" />
+    <item name="action_bar" type="id" />
+    <item name="back_button" type="id" />
+    <item name="send_audio" type="id" />
+    <item name="send_video" type="id" />
+    <item name="send_message" type="id" />
+    <item name="expand_stickers_button" type="id" />
+    <item name="message_edit_text" type="id" />
+    <item name="action_attach" type="id" />
+    <item name="avatar" type="id" />
+    <item name="create_new_group" type="id" />
+    <item name="create_new_channel" type="id" />
+    <item name="contacts_list" type="id" />
+    <item name="saved_messages" type="id" />
+    <item name="invite_friends" type="id" />
+    <item name="menu_settings" type="id" />
+</resources>

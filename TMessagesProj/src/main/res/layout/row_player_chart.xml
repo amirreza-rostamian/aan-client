@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_190sdp"
+    android:layout_height="@dimen/_100sdp"
+    android:layout_marginLeft="@dimen/_2sdp"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_2sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_3sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/bg_card_chart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="60"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="100">
+
+                <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                    android:id="@+id/tv_player_chart_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_weight="50"
+                    android:gravity="center|right"
+                    android:maxLines="2"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large_font" />
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/tv_player_chart_province"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="25"
+                    android:gravity="center|right"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/default_font" />
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/tv_player_chart_ostan"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="25"
+                    android:gravity="center|right"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/default_font"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="40">
+
+                <me.himanshusoni.chatmessageview.ui.ProgressView
+                    android:id="@+id/pv_player_chart"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    app:hive_animDuration="5000"
+                    app:hive_color="@color/colorAccent"
+                    app:hive_cornerRadius="20"
+                    app:hive_maxAlpha="255"
+                    app:hive_rainbow="true"
+                    app:hive_shrink="true" />
+
+                <me.himanshusoni.chatmessageview.ui.CircleImageView
+                    android:id="@+id/imv_player_chart_icon"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_centerInParent="true"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="@dimen/_2sdp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

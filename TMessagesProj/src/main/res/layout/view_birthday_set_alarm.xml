@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <me.himanshusoni.chatmessageview.ui.MEditText
+            android:id="@+id/et_birthday_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stroke_bgr"
+            android:gravity="right|center"
+            android:hint="@string/birthday_name"
+            android:inputType="text"
+            android:minHeight="@dimen/_40sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/large_font" />
+
+        <me.himanshusoni.chatmessageview.ui.MTextView
+            android:id="@+id/tv_select_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="@dimen/_40sdp"
+            android:text="@string/birthday_date"
+            android:textColor="@color/Black" />
+
+        <me.himanshusoni.chatmessageview.ui.MTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="@dimen/_40sdp"
+            android:text="@string/birthday_set_alarm_title"
+            android:textColor="@color/Black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <me.himanshusoni.chatmessageview.ui.MButton
+                android:id="@+id/btn_three_day"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="50"
+                android:background="@drawable/btnshadow"
+                android:gravity="center"
+                android:text="@string/birthday_set_alarm_three_before_day"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/default_font" />
+
+            <me.himanshusoni.chatmessageview.ui.MButton
+                android:id="@+id/btn_one_day"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="50"
+                android:background="@drawable/btnshadow"
+                android:gravity="center"
+                android:text="@string/birthday_set_alarm_one_before_day"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/default_font" />
+
+            <me.himanshusoni.chatmessageview.ui.MButton
+                android:id="@+id/btn_in_day"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:layout_weight="50"
+                android:background="@drawable/btnshadow"
+                android:gravity="center"
+                android:text="@string/birthday_set_alarm_in_day"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/default_font" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

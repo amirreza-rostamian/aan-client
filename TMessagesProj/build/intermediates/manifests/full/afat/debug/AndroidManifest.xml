@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.amin.HaftTeen"
+    android:installLocation="auto"
+    android:versionCode="10"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.LOCATION"
+        android:required="false" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="ir.amin.HaftTeen.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+
+    <permission
+        android:name="ir.amin.HaftTeen.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.PORTRAIT"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MANAGE_OWN_CALLS" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" />
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" />
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" />
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_APP_BADGE" />
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="ir.amin.HaftTeen.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="ir.amin.HaftTeen.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_SERVICE" />
+
+    <permission
+        android:name="ir.amin.HaftTeen.batch.permission.INTERNAL_BROADCAST"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="ir.amin.HaftTeen.batch.permission.INTERNAL_BROADCAST" />
+
+    <application
+        android:name="ir.amin.HaftTeen.messenger.ApplicationLoader"
+        android:allowBackup="false"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:fullBackupOnly="false"
+        android:hardwareAccelerated="@bool/useHardwareAcceleration"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/AppNameBeta"
+        android:largeHeap="true"
+        android:manageSpaceActivity="ir.amin.HaftTeen.ui.ExternalActionActivity"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.TMessages.Start" >
+        <service android:name="ir.amin.HaftTeen.messenger.GcmPushListenerService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="ir.amin.HaftTeen.messenger.GcmInstanceIDListenerService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <uses-library
+            android:name="com.google.android.maps"
+            android:required="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="false"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="false"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyD0-Ap7lLqIrESLHtiJAsaIDL4u2M5hqbc" />
+
+        <activity
+            android:name="ir.amin.HaftTeen.ui.LaunchActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="@bool/useHardwareAcceleration"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="video/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.ir.amin.HaftTeen.messenger.android.profile" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="aan.me"
+                    android:scheme="http" />
+                <data
+                    android:host="aan.me"
+                    android:scheme="https" />
+                <data
+                    android:host="aan.dog"
+                    android:scheme="http" />
+                <data
+                    android:host="aan.dog"
+                    android:scheme="https" />
+                <data
+                    android:host="telesco.pe"
+                    android:scheme="http" />
+                <data
+                    android:host="telesco.pe"
+                    android:scheme="https" />
+                <data
+                    android:host="t.me"
+                    android:scheme="http" />
+                <data
+                    android:host="t.me"
+                    android:scheme="https" />
+            </intent-filter>
+            <intent-filter
+                android:icon="@drawable/ic_launcher"
+                android:priority="1" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="tg" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.chooser.chooser_target_service"
+                android:value="ir.amin.HaftTeen.messenger.TgChooserTargetService" />
+        </activity>
+        <activity
+            android:name="ir.amin.HaftTeen.ui.ShareActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="@bool/useHardwareAcceleration"
+            android:stateNotNeeded="true"
+            android:theme="@style/Theme.TMessages.Transparent"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter
+                android:icon="@drawable/ic_launcher"
+                android:priority="1" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="tgb" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.amin.HaftTeen.ui.ExternalActionActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="@bool/useHardwareAcceleration"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter android:icon="@drawable/ic_launcher" >
+                <action android:name="ir.amin.HaftTeen.passport.AUTHORIZE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ir.amin.HaftTeen.ui.IntroActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="ir.amin.HaftTeen.messenger.OpenChatReceiver"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:exported="true" />
+        <activity
+            android:name="ir.amin.HaftTeen.ui.PopupNotificationActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:resizeableActivity="false"
+            android:taskAffinity=""
+            android:theme="@style/Theme.TMessages.PopupNotification"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="ir.amin.HaftTeen.ui.VoIPActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:taskAffinity="ir.amin.HaftTeen.voip"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="ir.amin.HaftTeen.ui.VoIPGroupActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:taskAffinity="ir.amin.HaftTeen.voip"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="ir.amin.HaftTeen.ui.VoIPPermissionActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:taskAffinity="ir.amin.HaftTeen.voip"
+            android:theme="@style/Theme.TMessages.Transparent" />
+        <activity
+            android:name="ir.amin.HaftTeen.ui.VoIPFeedbackActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:excludeFromRecents="true"
+            android:taskAffinity="ir.amin.HaftTeen.voip_feedback"
+            android:theme="@style/Theme.TMessages.TransparentWithAlerts" />
+
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="ir.amin.HaftTeen" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.AutoMessageHeardReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="ir.amin.HaftTeen.messenger.ACTION_MESSAGE_HEARD" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.AutoMessageReplyReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="ir.amin.HaftTeen.messenger.ACTION_MESSAGE_REPLY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ir.amin.HaftTeen.messenger.CallReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ir.amin.HaftTeen.messenger.SmsListener" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.provider.Telephony.NEW_OUTGOING_SMS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="ir.amin.HaftTeen.messenger.AuthenticatorService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.accounts.AccountAuthenticator"
+                android:resource="@xml/auth" />
+        </service>
+        <service
+            android:name="ir.amin.HaftTeen.messenger.ContactsSyncAdapterService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.content.SyncAdapter"
+                android:resource="@xml/sync_contacts" />
+            <meta-data
+                android:name="android.provider.CONTACTS_STRUCTURE"
+                android:resource="@xml/contacts" />
+        </service>
+        <service
+            android:name="ir.amin.HaftTeen.messenger.TgChooserTargetService"
+            android:label="@string/AppName"
+            android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE" >
+            <intent-filter>
+                <action android:name="android.service.chooser.ChooserTargetService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="ir.amin.HaftTeen.messenger.KeepAliveJob"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.BringAppForegroundService"
+            android:enabled="true" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.NotificationsService"
+            android:enabled="true" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.NotificationRepeat"
+            android:exported="false" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.ClearCacheService"
+            android:exported="false" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.VideoEncodingService"
+            android:enabled="true" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.LocationSharingService"
+            android:enabled="true" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.voip.VoIPService"
+            android:enabled="true" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.MusicPlayerService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="ir.amin.HaftTeen.messenger.MusicBrowserService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.media.browse.MediaBrowserService" />
+            </intent-filter>
+        </service>
+        <service android:name="ir.amin.HaftTeen.messenger.WearDataLayerListenerService" >
+            <intent-filter>
+
+                <!-- listeners receive events that match the action and data filters -->
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <action android:name="com.google.android.gms.wearable.CAPABILITY_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.CHANNEL_EVENT" />
+
+                <data
+                    android:host="*"
+                    android:scheme="wear" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="ir.amin.HaftTeen.messenger.voip.TelegramConnectionService"
+            android:permission="android.permission.BIND_TELECOM_CONNECTION_SERVICE" >
+            <intent-filter>
+                <action android:name="android.telecom.ConnectionService" />
+            </intent-filter>
+        </service>
+        <service android:name="ir.amin.HaftTeen.messenger.call.CallService" />
+
+        <receiver android:name="ir.amin.HaftTeen.messenger.MusicPlayerReceiver" >
+            <intent-filter>
+                <action android:name="ir.amin.HaftTeen.android.musicplayer.close" />
+                <action android:name="ir.amin.HaftTeen.android.musicplayer.pause" />
+                <action android:name="ir.amin.HaftTeen.android.musicplayer.next" />
+                <action android:name="ir.amin.HaftTeen.android.musicplayer.play" />
+                <action android:name="ir.amin.HaftTeen.android.musicplayer.previous" />
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+                <action android:name="android.media.AUDIO_BECOMING_NOISY" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ir.amin.HaftTeen.messenger.voip.VoIPMediaButtonReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.AppStartReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="ir.amin.HaftTeen.start" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.RefererReceiver"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.avending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.WearReplyReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.StopLiveLocationReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.PopupReplyReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.NotificationCallbackReceiver"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.ShareBroadcastReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.CustomTabsCopyReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.NotificationDismissReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="ir.amin.HaftTeen.messenger.voip.VoIPActionsReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="ir.amin.HaftTeen.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <uses-library
+            android:name="com.sec.android.app.multiwindow"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.sec.android.support.multiwindow"
+            android:value="true" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W"
+            android:value="632dp" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H"
+            android:value="598dp" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W"
+            android:value="632dp" />
+        <meta-data
+            android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H"
+            android:value="598dp" /> <!-- <meta-data android:name="com.google.android.gms.wallet.api.enabled" android:value="true" /> -->
+        <meta-data
+            android:name="com.google.android.gms.car.notification.SmallIcon"
+            android:resource="@drawable/ic_player" />
+        <!--
+ <meta-data
+             android:name="com.google.android.gms.car.application"
+             android:resource="@xml/automotive_app_desc" />
+        -->
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="7cb75c65b637c7f3d545b5c6df73c2e0501dcb23" />
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="face" />
+        <meta-data
+            android:name="com.samsung.android.icon_container.has_icon_container"
+            android:value="true" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.5" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+        <activity
+            android:name="net.hockeyapp.android.FeedbackActivity"
+            android:windowSoftInputMode="adjustResize|stateVisible" />
+        <activity android:name="net.hockeyapp.android.PaintActivity" />
+        <activity android:name="net.hockeyapp.android.LoginActivity" />
+        <activity android:name="net.hockeyapp.android.ExpiryInfoActivity" /> <!-- For targetSDK 28 and Android 9 -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <service
+            android:name="com.adpdigital.push.service.RegistrationIntentService"
+            android:exported="false" />
+
+        <receiver android:name="com.adpdigital.push.service.ChabokNotificationOpenedReceiver" />
+
+        <service
+            android:name="com.adpdigital.push.service.ChabokInstanceIDListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.adpdigital.push.GcmMessageHandler"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="com.adpdigital.push.ChabokWatchDog" />
+
+        <service
+            android:name="com.adpdigital.push.PushService"
+            android:enabled="true" />
+
+        <receiver
+            android:name="com.adpdigital.push.AdpBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.adpdigital.push.service.RESTART" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.batch.android.MessagingActivity"
+            android:exported="false"
+            android:theme="@style/com.batch.android.MessagingActivityTheme" />
+        <activity
+            android:name="com.batch.android.BatchActionActivity"
+            android:exported="false"
+            android:theme="@style/com.batch.android.ActionActivityTheme" />
+
+        <service
+            android:name="com.batch.android.BatchActionService"
+            android:exported="false" />
+        <service android:name="com.batch.android.BatchPushService" />
+        <service
+            android:name="com.batch.android.BatchPushJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.batch.android.BatchPushMessageReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="ir.amin.HaftTeen" />
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="ir.amin.HaftTeen.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="90" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="ir.amin.HaftTeen.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

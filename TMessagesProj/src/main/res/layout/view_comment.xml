@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <me.himanshusoni.chatmessageview.ui.MEditText
+            android:id="@+id/et_comment_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/stroke_bgr"
+            android:gravity="right|center"
+            android:hint="@string/hint_submit_rate"
+            android:inputType="textMultiLine"
+            android:maxLines="15"
+            android:minHeight="@dimen/_40sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/large_font" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

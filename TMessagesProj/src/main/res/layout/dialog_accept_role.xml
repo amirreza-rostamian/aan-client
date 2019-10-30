@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_400sdp"
+    android:orientation="vertical">
+
+
+    <me.himanshusoni.chatmessageview.ui.MButton
+        android:id="@+id/top_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_20sdp"
+        android:background="@drawable/shape_btn_blue"
+        android:gravity="center"
+        android:text="۱۰ رتبه برتر"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_12sdp" />
+
+    <ir.amin.HaftTeen.support.widget.RecyclerView
+        android:id="@+id/rc_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top_title"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_6sdp"
+        android:layout_marginBottom="@dimen/_8sdp" />
+
+    <ProgressBar
+        android:id="@+id/pb_match_chart"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

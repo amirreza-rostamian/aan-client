@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:oden="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_150sdp"
+    android:layout_height="@dimen/_150sdp"
+    android:layout_gravity="center"
+    android:background="@drawable/card_bg"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/dialog_linear"
+        android:layout_width="100dp"
+        android:layout_height="100dp">
+
+        <ir.amin.HaftTeen.vasni.utils.progress.RotateLoading
+            android:id="@+id/dialog_rotate_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            oden:loading_visible="false" />
+
+    </LinearLayout>
+
+    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+        android:id="@+id/dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:text="لطفا منتظر بمانید..."
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/_11sdp" />
+</LinearLayout>

@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":TMessagesProj" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":TMessagesProj" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="3.1.0" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="3.1.0" />
+      </configuration>
+    </facet>
+    <facet type="native-android-gradle" name="Native-Android-Gradle">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="afatFoss-armeabi-v7a" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="afatDebug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleAfatDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileAfatDebugSources" />
+        <afterSyncTasks>
+          <task>generateAfatDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/fabric/res/afat/debug;file://$MODULE_DIR$/build/generated/res/google-services/afat/debug;file://$MODULE_DIR$/build/generated/res/rs/afat/debug;file://$MODULE_DIR$/build/generated/res/resValues/afat/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" allPlatforms="JVM [1.6]" useProjectSettings="false" pureKotlinSourceFolders="$MODULE_DIR$/src/x86Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatFossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatFoss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatFoss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatRelease/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatRelease/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatDebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatDebug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatDebug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatDebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7DebugAndroidTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64_SDK23ReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23FossUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23DebugUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7_SDK23Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x86_SDK23Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64_SDK23Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64Debug/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/x64Debug/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7Release/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/armv7Release/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64Foss/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64Foss/java;/Users/amirreza/Android/Haftaan/TMessagesProj/src/afatReleaseUnitTest/kotlin;/Users/amirreza/Android/Haftaan/TMessagesProj/src/arm64FossUnitTest/kotlin">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/afatDebug" />
+          <option name="classpath" value="$USER_HOME$/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/renderscript-v8.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/cffe095a76b4f23f7e6c9fbcc7f5306a/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.5.0/f03b9f07c2b002f35f81338e6cde3fc191b91951/checker-qual-2.5.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-compat-qual/2.5.0/cf35d8ae3f73ea445a8d9019f93943168f14fc4e/checker-compat-qual-2.5.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.41/8d3d500e42bd74c17fa9586db8ca85c336979d02/kotlin-android-extensions-runtime-1.3.41.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.7.aar/4087783b96ef9eec9df950a9b6daf07d/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/bd07dec631f639e1e7335eaf614857cd/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-config-16.3.0.aar/505e782fd676a3118187481c3c4a7652/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-wallet-16.0.0.aar/8a8bf77fe0a2e824a11bb87943ed1ce5/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/c13de43e0902b80153bdfa8aa57214ae/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-vision-15.0.2.aar/febf9da6047fa296f17ae18977c9e870/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-wearable-15.0.1.aar/6efb8149413e712b0ab45730d8516ca1/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.5.aar/f507d7d82b2900d8267f8c928d727e6f/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.3.0.aar/3b4dcfcad72c13bd862c6e54a27d9598/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/a3033b7949a4998114ecfd162d52f428/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/82a46a0ecb8f0552ad0adf100bc778db/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f804430b7d2b29ecdec7e08eff357877/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f26a1f70ff706027c74f9e3517a9775a/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/7156d6475808768f3081d9b559600277/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/7c4740202542def4404fbe13c7d27a6b/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d7e893a59f69dece5e8d370821b8e01a/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/palette-v7-28.0.0.aar/19661efc99a70f43c898e8aefe244f17/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/1f5237da71cc84b6f7b603b49f0f07be/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/121d69eb4ac0d3060e85867cad78a61f/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/3eb1dd533eab877a3828f06df3f46e48/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/edc809f1fa3b81fc964307aabaee1a85/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/6c99dee271c14c984018385f66fad8bf/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/bcf04110aa40a6ed5c658ecd020d511f/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/1c13b2df927d315b34f41320e510c987/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6ee93bba89a58cac9639b40d5dd42cf6/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/248b75f51510db37ca85d0aff6157cbb/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/0eeb790497021d935cd0f411340911f3/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c44b7b235093692db4ebe6e26652dc8b/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/6b51b225793ec606471b24bc800eae8d/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/prdownloader-0.4.0.aar/77fe65b0331cb46de9235231122223e2/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/support-v13-28.0.0.aar/e4cd2622f19a193bd8483973fd1c9efa/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/116ec5aa0cef93176cf83e414398bcc7/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/HockeySDK-5.1.0.aar/bc16273a6ae4f937454df276b15b27ef/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/google-webrtc-1.0.28513.aar/71dc2e6eefc893d35fa46ebd1c41bbd1/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.googlecode.mp4parser/isoparser/1.0.6/2f9b0233a54d1fcbf84867b0e2518842cb0cd965/isoparser-1.0.6.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/stripe-android-2.0.2.aar/b6fa31727e6e839b68c556d7acf6bdff/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/ShortcutBadger-1.1.22.aar/03f95a29da1e6a3b71d4b476f91ff89e/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/installreferrer-1.0.aar/a18612e42758df29ef240dd6c8461a15/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/chabok-lib-2.18.0.aar/8a8de32e46e85004444ea496a20d10b5/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-gcm-16.1.0.aar/7cb2b04d950deba10cb3d70d03622d59/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/batch-sdk-1.14.2.aar/ed9c4b855a0e8e1284f319334f856708/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.41/a1f331124ba069a09e964ad2640c36f140f2c758/kotlin-stdlib-jdk7-1.3.41.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/2c7353f862a7f45586c5e76f55166e86/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/RoundCornerProgressBar-2.0.3.aar/b6300bbcfc2f68b909fd317e00c86bb3/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.java-websocket/Java-WebSocket/1.3.9/e6e60889b7211a80b21052a249bd7e0f88f79fee/Java-WebSocket-1.3.9.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/1287830e669c0edbfe403b874ecc468f/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.4.0/15d7790ee311d961379c51b00aba12d5967cb7ea/converter-gson-2.4.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.3.0/43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a/adapter-rxjava-2.3.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.3.0/1eaa5762cb25c31b1905e2bfdfef70a2e0495ea6/converter-scalars-2.3.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jackson/2.3.0/121335a74bc432ab7a3caa5a84548fc9b5915a54/converter-jackson-2.3.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.4.0/fc4aa382632bfaa7be7b41579efba41d5a71ecf3/retrofit-2.4.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.10.0/55f574ec622f65ac9c0e2e922d3ffa01dc4f139e/logging-interceptor-3.10.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxkotlin/2.1.0/a689f6ecddec6164a5975fe26ddfded1eab945e9/rxkotlin-2.1.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/butterknife-8.4.0.aar/8eae0e7fb765ec0228ea914ea7211382/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/6b63b9bccc069cd90039730e403389e5/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.0/2c622e8f1cab8d5871d32bb2023af515216056d8/rxjava-2.2.0.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/videoslimmer-1.0.0.aar/4f21b9bed84ea773bffc961ce7713dcb/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/io.tus.java.client/tus-java-client/0.4.1/1642aa1fed3eb8b0961be63558698c8a07754ab1/tus-java-client-0.4.1.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.8.aar/f72234f81844bb5a6ae5f6b243d5aeb1/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/e24bd38de28a326cce8b1f0d61e809e9a92dad6a/kotlin-stdlib-1.3.41.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-abt-17.1.0.aar/15d7e9bb3e8b6b07b313adc8231670b4/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.3.0.aar/7955a7d1c503dd1e45118f84d7d52656/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.3.0.aar/68e3a93969c28a77eb2e0dcb25d716e3/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/b71e483c6cffa0f8842f17d0dc580a00/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/b75e03617015cbb1692c5a944913eca2/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/62941599e44000d8886f883b02de33b1/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-15.0.2.aar/f3d2fd058a7cd19e0a12c99ba57b65ed/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-identity-15.0.1.aar/07d068a38d9bd0c896f2a8fb56528fa7/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.3.0.aar/c4a36a37cff236d00b77d88d76f29027/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-iid-16.0.1.aar/2fd8d78962aef9e6b77279ce6fb9883c/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/1c3e69d95a37893269bdce19258dfccf/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-clearcut-15.0.1.aar/6ba876b7dfce796e84f08460688e587e/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/038cb3ad4fdfc929fe49df03269b6812/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-phenotype-15.0.1.aar/224785778da9a023a75c737f7f7c98f3/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f2642ec7ef6fa984aec0402de6c38f58/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/e6a0766d7960408e9c966a65ad6010e3/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f20e872cd83428d27fda47bea97de3b9/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/cbb0b18740d81dd5c4985c22faf2a557/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/679b2b101be2cc4eb8e67b7197465afb/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/1bac61275e33e6329c796205bb97af64/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a4a04c5556c88d041f9ff04ae0d76ca8/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/cfdd0546d0da803a268650fe9f20ae99/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/369331ffe6d98dd718958893f4bbb19d/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/582c27707abf8c7ed1b2294fe01f6e6c/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/454d8832d24f3bfa310f082538aaeadd/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/e23f39d45c3ad3633795ff2119f5c201/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/b1bd3b8bc5ffc65ebd904a846bdaea30/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e6cf56c4a5f06b258274bc8f73241887/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/36d816000bcfe82864eacfae24d6fc88/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/fc29257e1ed9ca6dac2af9e01f124ec5/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6743ff9095cb0704c5894560fafcdc62/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjrt/1.8.2/7dede91c0c36b1265fc99c55283b90ed2be144c8/aspectjrt-1.8.2.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.7.1/21e6054c134c7f5c435ab7635984f39c5375083e/disklrucache-4.7.1.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.7.1/796c0bf0a61141278c4bc32de2b92e6eb7fa8b1a/annotations-4.7.1.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.0/af000bec2036a2a9d07197c4b03b8966bfc60b03/rxjava-1.3.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.2/84ffa765dd258dbab8695963c41308b054f3a1cb/jackson-databind-2.7.2.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/2100db5c72d2e6a07a216f3ccc3159be/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.7.aar/4ff46c34038f3212eabcc8aa43bb872e/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/answers-1.4.6.aar/1f0b4115144e5ce2a07fd98f557e380f/jars/classes.jar:/Users/amirreza/.gradle/caches/transforms-1/files-1.1/fabric-1.4.7.aar/731731d3a610fa9c222915b8ac90e0ab/jars/classes.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.0/19f42c154ffc689f40a77613bc32caeb17d744e3/jackson-annotations-2.7.0.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.2/8b8310381b690e317f5f0574e9b2dd7034778b4c/jackson-core-2.7.2.jar:/Users/amirreza/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.41/2ecf4aa059427d7186312fd1736afedf7972e7f7/kotlin-stdlib-common-1.3.41.jar:/Users/amirreza/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="TMessagesProj_afatDebug" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.41/3bb1958b60435763b1299eb4e2dea5bea3bab2a3/kotlin-android-extensions-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.41/6b1d4385d65894e07a0d14a5949f5417a408f0b7/kotlin-compiler-embeddable-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.41/8fb58b8954661de666e321478bf4178c18ce8018/kotlin-reflect-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.41/bcc3380041bbba171119c22d7024961b60da69e0/kotlin-script-runtime-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.41/2ecf4aa059427d7186312fd1736afedf7972e7f7/kotlin-stdlib-common-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.41/e24bd38de28a326cce8b1f0d61e809e9a92dad6a/kotlin-stdlib-1.3.41.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/build/intermediates/classes/afat/debug" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/afat/debug" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/afat/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/afat/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/afat/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/afat/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/fabric/res/afat/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/google-services/afat/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/afat/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/afat/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afatDebug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebugAndroidTest" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/afat/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/aidl/androidTest/afat/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/afat/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/rs/androidTest/afat/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/afat/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/afat/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfatDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebugUnitTest" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/afat/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfatDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/afat/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestAfat/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testAfat/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/jni" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatDebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatFoss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatFoss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatFossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatFossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatRelease">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatRelease" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/afatReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/afatReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/arm64_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/armv7_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x64_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/x86_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatDebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatFoss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatFoss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatFossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatFossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatRelease">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatRelease" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/afatReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/arm64_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/armv7_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x64_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23Debug">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23Debug" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23DebugAndroidTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23DebugAndroidTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23DebugUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23DebugUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23Foss">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23Foss" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23FossUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23FossUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23Release">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23Release" isTestSource="false" generated="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23ReleaseUnitTest">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/x86_SDK23ReleaseUnitTest" isTestSource="true" generated="true" />
+    </content>
+    <content url="file://$USER_HOME$/Library/Android/sdk/android-ndk-r16b/sources/android/cpufeatures">
+      <sourceFolder url="file://$USER_HOME$/Library/Android/sdk/android-ndk-r16b/sources/android/cpufeatures" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 28 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Gradle: kaptGeneratedClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatDebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatDebug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatDebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatFoss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatFossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatRelease" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/afatReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/arm64_SDK23ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/armv7_SDK23ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x64_SDK23ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86ReleaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23DebugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23Debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23DebugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23Foss" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23FossUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23Release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/x86_SDK23ReleaseUnitTest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="TEST" name="Gradle: com.android.support:multidex-instrumentation:1.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:/Users/amirreza/Library/Android/sdk/build-tools/28.0.3/renderscript/lib/renderscript-v8.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-qual:2.5.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.checkerframework:checker-compat-qual:2.5.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-android-extensions-runtime:1.3.41@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.googlecode.mp4parser:isoparser:1.0.6@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.41@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.java-websocket:Java-WebSocket:1.3.9@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-gson:2.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:adapter-rxjava:2.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-scalars:2.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:converter-jackson:2.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.retrofit2:retrofit:2.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:logging-interceptor:3.10.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxkotlin:2.1.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.greenrobot:eventbus:3.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxjava:2.2.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.tus.java.client:tus-java-client:0.4.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.3.41@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:collections:28.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.jakewharton:butterknife-annotations:8.4.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:common:1.1.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-annotations:28.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.aspectj:aspectjrt:1.8.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout-solver:1.1.3@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:disklrucache:4.7.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:annotations:4.7.1@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okhttp3:okhttp:3.10.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex:rxjava:1.3.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.7.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup.okio:okio:1.14.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.7.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.7.2@jar" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.3.41@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:multidex:1.0.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-core:16.0.7@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-messaging:17.3.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-config:16.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-wallet:16.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-maps:15.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision:15.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-wearable:15.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector-impl:17.0.5@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics:16.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:design:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:recyclerview-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:animated-vector-drawable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:glide:4.7.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-fragment:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-ui:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:palette-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-core-utils:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:viewpager:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:coordinatorlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:drawerlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:slidingpanelayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:customview:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:swiperefreshlayout:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:asynclayoutinflater:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:loader:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:transition:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-vector-drawable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-compat:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.mindorks.android:prdownloader:0.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:support-v13:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:exifinterface:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: net.hockeyapp.android:HockeySDK:5.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: org.webrtc:google-webrtc:1.0.28513@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.stripe:stripe-android:2.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: me.leolin:ShortcutBadger:1.1.22@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.installreferrer:installreferrer:1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.adpdigital.push:chabok-lib:2.18.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-gcm:16.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.batch.android:batch-sdk:1.14.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support.constraint:constraint-layout:1.1.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.akexorcist:RoundCornerProgressBar:2.0.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cardview-v7:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.jakewharton:butterknife:8.4.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.reactivex.rxjava2:rxandroid:2.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.zolad:videoslimmer:1.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.crashlytics.sdk.android:crashlytics:2.9.8@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-abt:17.1.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-api:16.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-analytics-impl:16.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid:17.0.4@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-common:16.0.3@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-measurement-connector:17.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-vision-common:15.0.2@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-identity:15.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-measurement-base:16.3.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-iid:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-stats:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-clearcut:15.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-flags:15.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-phenotype:15.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-ads-identifier:16.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.firebase:firebase-iid-interop:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-base:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-tasks:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-basement:16.0.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:interpolator:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:cursoradapter:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:versionedparcelable:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:documentfile:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:localbroadcastmanager:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.android.support:print:28.0.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.bumptech.glide:gifdecoder:4.7.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:livedata-core:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.core:runtime:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: android.arch.lifecycle:viewmodel:1.1.1@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.crashlytics.sdk.android:beta:1.2.10@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.crashlytics.sdk.android:crashlytics-core:2.6.7@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.crashlytics.sdk.android:answers:1.4.6@aar" level="project" />
+    <orderEntry type="library" name="Gradle: io.fabric.sdk.android:fabric:1.4.7@aar" level="project" />
+    <orderEntry type="module" module-name="message-view" />
+  </component>
+</module>

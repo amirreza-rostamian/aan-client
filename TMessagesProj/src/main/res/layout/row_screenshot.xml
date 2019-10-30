@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <me.himanshusoni.chatmessageview.ui.ProgressView
+        android:id="@+id/pv_screenshot"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_25sdp"
+        app:hive_animDuration="5000"
+        app:hive_color="@color/colorAccent"
+        app:hive_cornerRadius="20"
+        app:hive_maxAlpha="255"
+        app:hive_rainbow="true"
+        app:hive_shrink="true" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imv_screenshot"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_margin="@dimen/_3sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+
+</RelativeLayout>

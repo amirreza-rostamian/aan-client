@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/amirreza/Android/Haftaan/TMessagesProj/build/intermediates/incremental/mergeAfatDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/amirreza/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f804430b7d2b29ecdec7e08eff357877/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

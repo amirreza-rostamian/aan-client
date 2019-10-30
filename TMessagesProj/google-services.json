@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "923305623157",
+    "firebase_url": "https://haftaan-ab08d.firebaseio.com",
+    "project_id": "haftaan-ab08d",
+    "storage_bucket": "haftaan-ab08d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923305623157:android:86765dc95c01d6db20c23c",
+        "android_client_info": {
+          "package_name": "ir.amin.HaftTeen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923305623157-1gd78eoujsa0v5jgsqabg27l9kl6cl9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtn8eGGLIQeAd3U4mQ3qlvsO1CARPkdLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923305623157-1gd78eoujsa0v5jgsqabg27l9kl6cl9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

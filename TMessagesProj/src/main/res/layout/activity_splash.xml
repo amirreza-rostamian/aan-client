@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imv_splash_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/splash_bgr" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imv_splash_logo"
+        android:gravity="center"
+        android:text="@string/AppName"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_force_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:visibility="gone">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/chat_bg_2" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitEnd"
+            app:srcCompat="@drawable/chat_bg_2" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp"
+            app:contentPadding="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_splash_version_found"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|right"
+                    android:padding="10dp"
+                    android:text="@string/new_version_found"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:id="@+id/tv_update_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_splash_version_found"
+                    android:gravity="right|center"
+                    android:padding="10dp"
+                    android:textColor="@color/colorGrey" />
+
+                <LinearLayout
+                    android:id="@+id/ll_update_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_update_tips"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:weightSum="100">
+
+                    <ProgressBar
+                        android:id="@+id/pb_update"
+                        style="?android:attr/progressBarStyleHorizontal"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:layout_weight="80"
+                        android:indeterminateOnly="false"
+                        android:max="100" />
+
+                    <TextView
+                        android:id="@+id/txt_force_percent"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="20"
+                        android:gravity="center"
+                        android:textColor="@color/colorGrey"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ll_update_opt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_below="@+id/ll_update_container"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/_30sdp"
+                    android:paddingRight="@dimen/_30sdp"
+                    android:visibility="gone"
+                    android:weightSum="100">
+
+                    <Button
+                        android:id="@+id/btn_download_version"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="50"
+                        android:background="@color/colorGreen"
+                        android:gravity="center"
+                        android:text="دریافت"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/btn_download_version_cancel"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="50"
+                        android:background="@color/colorGreen"
+                        android:gravity="center"
+                        android:text="بی خیال"
+                        android:textColor="@color/colorWhite" />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

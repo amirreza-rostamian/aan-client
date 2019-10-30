@@ -1,0 +1,97 @@
+{
+  "#source": [
+  ],
+  "grade": [
+    {
+      "grade_id": 1,
+      "grade_name": "کلاس اول"
+    },
+    {
+      "grade_id": 2,
+      "grade_name": "کلاس دوم"
+    },
+    {
+      "grade_id": 3,
+      "grade_name": "کلاس سوم"
+    },
+    {
+      "grade_id": 4,
+      "grade_name": "کلاس چهارم"
+    },
+    {
+      "grade_id": 5,
+      "grade_name": "کلاس پنجم"
+    },
+    {
+      "grade_id": 6,
+      "grade_name": "کلاس ششم"
+    },
+    {
+      "grade_id": 7,
+      "grade_name": "کلاس هفتم"
+    },
+    {
+      "grade_id": 8,
+      "grade_name": "کلاس هشتم"
+    },
+    {
+      "grade_id": 9,
+      "grade_name": "کلاس نهم"
+    },
+    {
+      "grade_id": 10,
+      "grade_name": "کلاس دهم"
+    }
+    /*//  ,
+    //    {
+    //      "grade_id": 10,
+    //      "grade_name": "کلاس دهم ریاضی"
+    //    },
+    //    {
+    //      "grade_id": 11,
+    //      "grade_name": "کلاس دهم تجربی"
+    //    },
+    //    {
+    //      "grade_id": 12,
+    //      "grade_name": "کلاس دهم انسانی"
+    //    },
+    //    {
+    //      "grade_id": 13,
+    //      "grade_name": "کلاس دهم هنرستان"
+    //    },
+    //    {
+    //      "grade_id": 14,
+    //      "grade_name": "کلاس یازدهم ریاضی"
+    //    },
+    //    {
+    //      "grade_id": 15,
+    //      "grade_name": "کللاس یازدهم تجربی"
+    //    },
+    //    {
+    //      "grade_id": 16,
+    //      "grade_name": "کللاس یازدهم انسانی"
+    //    },
+    //    {
+    //      "grade_id": 17,
+    //      "grade_name": "کلاس یازدهم هنرستان"
+    //    },
+    //    {
+    //      "grade_id": 18,
+    //      "grade_name": "کلاس دوازدهم ریاضی"
+    //    },
+    //    {
+    //      "grade_id": 19,
+    //      "grade_name": "کلاس دوازدهم تجربی"
+    //    },
+    //    {
+    //      "grade_id": 20,
+    //      "grade_name": "کلاس دوازدهم انسانی"
+    //    },
+    //    {
+    //      "grade_id": 21,
+    //      "grade_name": "کلاس دوازدهم هنرستان"
+    //    }*/
+  ]
+}
+
+

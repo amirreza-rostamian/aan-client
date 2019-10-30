@@ -1,0 +1,2 @@
+# Referenced at /Users/amirreza/Android/Haftaan/TMessagesProj/build/intermediates/manifests/full/afat/debug/AndroidManifest.xml:126
+-keep class ir.amin.HaftTeen.messenger.ApplicationLoader { <init>(...); }

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bgr_option"
+        android:visibility="gone" />
+
+
+    <me.himanshusoni.chatmessageview.ui.MButton
+        android:id="@+id/btn_match_option"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:layout_margin="@dimen/_5sdp"
+        android:background="@drawable/bgr_option"
+        android:clickable="false"
+        android:gravity="center"
+        android:paddingRight="@dimen/_10sdp"
+        android:text="@string/main_top_title"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/default_font"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imv_voice_match_option"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:tag="play"
+        android:tint="@color/colorLight"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_play_circle" />
+
+    <LinearLayout
+        android:id="@+id/ll_match_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_toRightOf="@+id/imv_voice_match_option"
+        android:background="@drawable/bgr_option"
+        android:gravity="center"
+        android:minHeight="?android:attr/actionBarSize"
+        android:orientation="vertical">
+
+        <me.himanshusoni.chatmessageview.ui.MTextView
+            android:id="@+id/txt_match_option_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:gravity="center"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/default_font" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.himanshusoni.chatmessageview.ui.ProgressView
+                android:id="@+id/pv_loading_pic_option"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                app:hive_animDuration="5000"
+                app:hive_color="@color/colorAccent"
+                app:hive_cornerRadius="20"
+                app:hive_maxAlpha="255"
+                app:hive_rainbow="true"
+                app:hive_shrink="true" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/img_match_option"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_80sdp"
+                android:layout_centerInParent="true"
+                android:layout_margin="@dimen/_5sdp"
+                android:scaleType="fitXY"
+                android:src="@drawable/amir"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <me.himanshusoni.chatmessageview.ui.BottomPicker.view.TedSquareFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.himanshusoni.chatmessageview.VideoPlayer.JzvdStd
+                android:id="@+id/video_match_option"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_100sdp"
+                android:layout_margin="@dimen/_5sdp"
+                android:visibility="gone" />
+
+        </me.himanshusoni.chatmessageview.ui.BottomPicker.view.TedSquareFrameLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

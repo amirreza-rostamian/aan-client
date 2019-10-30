@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_score_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_score_top"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_weight="50"
+                android:background="@drawable/purple_card"
+                android:orientation="horizontal"
+                android:padding="@dimen/_5sdp"
+                android:weightSum="100">
+
+                <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                    android:id="@+id/tv_program_score"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:gravity="center|right"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large_font" />
+
+
+                <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="70"
+                    android:gravity="center|left"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="@string/get_score"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/large_font" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_my_home_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_score_program">
+
+        <ir.amin.HaftTeen.vasni.utils.grid.AsymmetricGridView
+            android:id="@+id/gv_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:divider="@android:color/transparent"
+            android:fadingEdge="none"
+            android:focusable="false"
+            android:gravity="center"
+            android:listSelector="#00000000" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <include
+        android:id="@+id/pv_loading_main"
+        layout="@layout/view_loading"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="100">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="7"
+                android:orientation="horizontal"
+                android:weightSum="100">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_weight="20"
+                        android:padding="@dimen/_5sdp"
+                        android:tint="@color/white"
+                        app:srcCompat="@drawable/ic_group" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/tv_match_totaluser"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="80"
+                        android:gravity="center|left"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/large_font" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/tv_match_score"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="80"
+                        android:gravity="center|right"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/large_font" />
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_weight="20"
+                        android:padding="@dimen/_5sdp"
+                        android:tint="@color/white"
+                        app:srcCompat="@drawable/ic_content" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_weight="93"
+                android:weightSum="100">
+
+                <me.himanshusoni.chatmessageview.Vasni.Wave.MultiWaveHeader
+                    android:id="@+id/wave_match"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_alignParentBottom="true"
+                    android:scaleY="-1"
+                    app:mwhCloseColor="#0A1B2A"
+                    app:mwhColorAlpha="0.55"
+                    app:mwhGradientAngle="180"
+                    app:mwhIsRunning="true"
+                    app:mwhStartColor="#152636"
+                    app:mwhVelocity="5"
+                    app:mwhWaves="MultiWave" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_20sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:background="@drawable/bgr_dark_blue">
+
+                    <RelativeLayout
+                        android:id="@+id/rl_start_match"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+
+                        <me.himanshusoni.chatmessageview.ui.CircularCountDownBar
+                            android:id="@+id/pb_match_online"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/_25sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            app:cd_animator_time="10"
+                            app:cd_arc_color="@color/colorAccent"
+                            app:cd_arc_width="12dp"
+                            app:cd_bg_color="@color/transparent"
+                            app:cd_circle_radius="@dimen/_30sdp"
+                            app:cd_location="top"
+                            app:cd_retreat_type="back"
+                            app:cd_text_color="@color/white"
+                            app:cd_text_size="@dimen/_16sdp" />
+
+
+                        <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                            android:id="@+id/tv_time_out"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:gravity="center"
+                            android:padding="@dimen/_15sdp"
+                            android:text="وقت تموم شد"
+                            android:textColor="@color/colorRed"
+                            android:textSize="@dimen/_15sdp"
+                            android:visibility="gone" />
+
+
+                        <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                            android:id="@+id/tv_match_quize"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/pb_match_online"
+                            android:layout_margin="@dimen/_5sdp"
+                            android:gravity="right|center"
+                            android:padding="@dimen/_5sdp"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/large_font" />
+
+                        <!-- option 1-->
+                        <RelativeLayout
+                            android:id="@+id/rl_option1"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_below="@+id/tv_match_quize"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_5sdp">
+
+                            <me.himanshusoni.chatmessageview.ui.RoundProgress.RoundCornerProgressBar
+                                android:id="@+id/pb_option1"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                app:rcBackgroundColor="@color/colorDarkBlue1"
+                                app:rcBackgroundPadding="2dp"
+                                app:rcRadius="@dimen/_25sdp"
+                                app:rcReverse="true" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_match_option1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="right|center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/default_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_count_1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="left|center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/default_font" />
+
+                        </RelativeLayout>
+
+                        <!-- option 2-->
+
+                        <RelativeLayout
+                            android:id="@+id/rl_option2"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_below="@+id/rl_option1"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_5sdp">
+
+                            <me.himanshusoni.chatmessageview.ui.RoundProgress.RoundCornerProgressBar
+                                android:id="@+id/pb_option2"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                app:rcBackgroundColor="@color/colorLightGray"
+                                app:rcBackgroundPadding="2dp"
+                                app:rcRadius="@dimen/_25sdp"
+                                app:rcReverse="true" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_match_option2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="right|center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/default_font" />
+
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_count_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="left|center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/default_font" />
+
+                        </RelativeLayout>
+
+                        <!-- option 3-->
+                        <RelativeLayout
+                            android:id="@+id/rl_option3"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_40sdp"
+                            android:layout_below="@+id/rl_option2"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_35sdp">
+
+                            <me.himanshusoni.chatmessageview.ui.RoundProgress.RoundCornerProgressBar
+                                android:id="@+id/pb_option3"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                app:rcBackgroundColor="@color/colorLightGray"
+                                app:rcBackgroundPadding="2dp"
+                                app:rcRadius="@dimen/_25sdp"
+                                app:rcReverse="true" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_match_option3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="right|center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/default_font" />
+
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_count_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="left|center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/default_font" />
+
+                        </RelativeLayout>
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_end_match"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_350sdp"
+                        android:background="@color/dark_blue"
+                        android:visibility="gone">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:id="@+id/imv_end_match"
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_300sdp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/end_match" />
+
+
+                        <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_250sdp"
+                            android:gravity="center"
+                            android:text="مسابقه به انتها رسید منتظر اعلام نتیجه باشید"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/rl_winner_match"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_350sdp"
+                        android:background="@color/dark_blue"
+                        android:visibility="gone">
+
+                        <android.support.v7.widget.AppCompatImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/_300sdp"
+                            android:scaleType="fitCenter"
+                            app:srcCompat="@drawable/winner" />
+
+
+                        <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                            android:id="@+id/tv_lose_txt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_260sdp"
+                            android:gravity="center"
+                            android:text="برنده به زودی اعلام میشود"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/_14sdp" />
+
+                    </RelativeLayout>
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_counter"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_centerHorizontal="true">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="@dimen/_40sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:src="@drawable/ic_number_question" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/tv_question_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/Black"
+                        android:textSize="@dimen/_15sdp" />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/pv_loading_match"
+            layout="@layout/view_loading" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

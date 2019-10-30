@@ -1,0 +1,64 @@
+<resources>
+    <dimen name="jz_start_button_w_h_normal">45dp</dimen>
+    <dimen name="jz_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="large_font">15sp</dimen>
+    <dimen name="small_font">11sp</dimen>
+    <dimen name="very_large_font">22dp</dimen>
+    <dimen name="default_font">13sp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="btn_corner_radius">2dp</dimen>
+    <dimen name="btn_min_width">88dp</dimen>
+    <dimen name="btn_min_height">36dp</dimen>
+    <dimen name="btn_flat_padding">8dp</dimen>
+    <dimen name="btn_margin">4dp</dimen>
+    <dimen name="jc_progress_dialog_margin_top">80dp</dimen>
+    <dimen name="jc_volume_dialog_margin_left">24dp</dimen>
+    <dimen name="btn_padding">16dp</dimen>
+    <dimen name="tv_content_margin">20dp</dimen>
+    <dimen name="button_min_width">90dp</dimen>
+    <dimen name="btn_normal_padding">8dp</dimen>
+    <dimen name="content_box_margin_bottom">35dp</dimen>
+    <dimen name="btn_normal_margin">4dp</dimen>
+    <dimen name="tedbottompicker_grid_layout_margin">1dp</dimen>
+    <dimen name="tedbottompicker_selected_image_height">90dp</dimen>
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_shadow_height">0dp</dimen>
+    <dimen name="bottom_navigation_shadow_height_without_colored_background">0dp</dimen>
+    <dimen name="bottom_navigation_min_width">104dp</dimen>
+    <dimen name="bottom_navigation_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_height">66dp</dimen>
+    <dimen name="bottom_navigation_line_width">1dp</dimen>
+    <dimen name="ms__padding_left">24dp</dimen>
+    <dimen name="ms__padding_top">12dp</dimen>
+    <dimen name="ms__item_height">48dp</dimen>
+    <dimen name="ms__popup_padding_left">24dp</dimen>
+    <dimen name="ms__popup_padding_top">12dp</dimen>
+    <dimen name="bottom_navigation_icon">30dp</dimen>
+    <dimen name="bottom_navigation_padding_top_active">5dp</dimen>
+    <dimen name="bottom_navigation_padding_top_inactive">9dp</dimen>
+    <dimen name="bottom_navigation_padding_top_inactive_without_text">16dp</dimen>
+    <dimen name="bottom_navigation_padding_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
+    <dimen name="start_button_w_h_normal">45dp</dimen>
+    <dimen name="start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+
+    <dimen name="stpi_default_text_size">12sp</dimen>
+
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="stpi_done_icon_size">18dp</dimen>
+</resources>

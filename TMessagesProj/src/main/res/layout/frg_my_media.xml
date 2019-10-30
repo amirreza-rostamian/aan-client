@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray"
+    android:clickable="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_my_media"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_upload_my_media">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_my_media"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_upload_my_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <me.himanshusoni.chatmessageview.ui.MTextView
+                android:id="@+id/tv_upload_my_media"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:gravity="center"
+                android:text="@string/upload_new_media"
+                android:textColor="@color/white"
+                android:textSize="@dimen/large_font" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ic_add_media"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ic_upload" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <include
+        android:id="@+id/pv_my_media_loading"
+        layout="@layout/view_loading" />
+
+</android.support.design.widget.CoordinatorLayout>

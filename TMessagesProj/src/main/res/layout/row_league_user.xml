@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <me.himanshusoni.chatmessageview.ui.ProgressView
+                android:id="@+id/pv_league_user_pic"
+                android:layout_width="@dimen/_30sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/_25sdp"
+                app:hive_animDuration="5000"
+                app:hive_color="@color/colorAccent"
+                app:hive_cornerRadius="20"
+                app:hive_maxAlpha="255"
+                app:hive_rainbow="true"
+                app:hive_shrink="true" />
+
+            <me.himanshusoni.chatmessageview.ui.CircleImageView
+                android:id="@+id/imv_league_user_pic"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_centerInParent="true"
+                app:civ_border_color="@color/colorLight"
+                app:civ_border_width="@dimen/_1sdp" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                android:id="@+id/tv_league_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/default_font" />
+
+            <me.himanshusoni.chatmessageview.ui.MTextView
+                android:id="@+id/tv_league_user_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_more_player_name"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingLeft="@dimen/_5sdp"
+                android:paddingRight="@dimen/_5sdp"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/small_font" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

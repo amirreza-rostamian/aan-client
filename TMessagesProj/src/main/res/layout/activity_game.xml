@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/tv_vitrin_header_title"
+                android:layout_marginRight="@dimen/_80sdp"
+                android:background="@drawable/shadow" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="30"
+                            android:orientation="vertical">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_media_game_download_click"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/_5sdp"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:background="@drawable/selector_sub_category"
+                                android:gravity="center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingTop="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:paddingBottom="@dimen/_5sdp"
+                                android:text="@string/download"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/large_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_media_game_download_percent"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:gravity="center|right"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/default_font" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="45"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                                android:id="@+id/tv_media_game_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/app_name"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/large_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_media_game_programmer_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="right|center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="@string/dev"
+                                android:textColor="@color/colorLight"
+                                android:textSize="@dimen/default_font"
+                                android:visibility="gone" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_media_game_price"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/_5sdp"
+                                android:gravity="right|center"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:textColor="@color/colorRed"
+                                android:textSize="@dimen/default_font" />
+
+
+                            <android.support.v7.widget.AppCompatSeekBar
+                                android:id="@+id/pb_download_app"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:progress="0"
+                                android:scrollbarSize="2dp"
+                                android:visibility="invisible" />
+                        </LinearLayout>
+
+                        <android.support.v7.widget.CardView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/_2sdp"
+                            android:layout_weight="25"
+                            app:cardCornerRadius="@dimen/_6sdp"
+                            app:cardElevation="@dimen/_2sdp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <me.himanshusoni.chatmessageview.ui.ProgressView
+                                    android:id="@+id/pv_loading_pic_game"
+                                    android:layout_width="@dimen/_40sdp"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_gravity="center"
+                                    app:hive_animDuration="5000"
+                                    app:hive_color="@color/colorAccent"
+                                    app:hive_cornerRadius="20"
+                                    app:hive_maxAlpha="255"
+                                    app:hive_rainbow="true"
+                                    app:hive_shrink="true" />
+
+                                <android.support.v7.widget.AppCompatImageView
+                                    android:id="@+id/imv_media_game"
+                                    android:layout_width="@dimen/_75sdp"
+                                    android:layout_height="@dimen/_75sdp"
+                                    android:layout_centerInParent="true"
+                                    android:scaleType="centerCrop" />
+
+                            </RelativeLayout>
+
+                        </android.support.v7.widget.CardView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_90sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="@dimen/_12sdp"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:id="@+id/ll_media_game_volume"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_weight="25"
+                            android:background="@drawable/selector_gray"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                                android:id="@+id/tv_media_game_volume"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/large_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:text="@string/volume"
+                                android:textColor="@color/colorLight"
+                                android:textSize="@dimen/default_font" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_media_game_category"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_weight="25"
+                            android:background="@drawable/selector_gray"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                                android:id="@+id/tv_media_game_category"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_5sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/default_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:text="@string/category"
+                                android:textColor="@color/colorLight"
+                                android:textSize="@dimen/default_font" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_media_game_rating"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_weight="25"
+                            android:background="@drawable/selector_gray"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                                android:id="@+id/tv_media_game_rating"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/large_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:id="@+id/tv_media_game_comment"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:text="امتیاز"
+                                android:textColor="@color/colorLight"
+                                android:textSize="@dimen/default_font" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_media_game_download"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="25"
+                            android:background="@drawable/selector_gray"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                                android:id="@+id/tv_media_game_download"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/large_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:text="@string/downloaded"
+                                android:textColor="@color/colorLight"
+                                android:textSize="@dimen/default_font" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_media_game_view"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="25"
+                            android:background="@drawable/selector_gray"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                                android:id="@+id/tv_media_game_view"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:textColor="@color/colorBlack"
+                                android:textSize="@dimen/large_font" />
+
+                            <me.himanshusoni.chatmessageview.ui.MTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="@dimen/_3sdp"
+                                android:text="@string/view"
+                                android:textColor="@color/colorLight"
+                                android:textSize="@dimen/default_font" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_150sdp">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/rc_media_game_screenshot"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/layout"
+                            android:layout_marginTop="@dimen/_5sdp"></android.support.v7.widget.RecyclerView>
+
+                    </LinearLayout>
+
+                    <me.himanshusoni.chatmessageview.ui.JustifiedTextView
+                        android:id="@+id/tv_media_game_desc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_10sdp"
+                        android:gravity="right"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/app_name"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/default_font" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextView
+                        android:id="@+id/tv_media_game_desc_more"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:gravity="center"
+                        android:maxLines="4"
+                        android:text="@string/more_desc"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/default_font"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:src="@color/colorLightGray" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_rating_media_game"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:minHeight="@dimen/_45sdp"
+                        android:orientation="vertical">
+
+
+                        <me.himanshusoni.chatmessageview.ui.MRatingBar
+                            android:id="@+id/rb_media_game"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"
+                            android:clickable="false"
+                            android:isIndicator="true"
+                            android:minHeight="@dimen/_20sdp"
+                            android:numStars="5"
+                            android:progressDrawable="@drawable/rating_bar"
+                            android:rating="0"
+                            android:stepSize="0.01" />
+
+                        <me.himanshusoni.chatmessageview.ui.MTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:maxLines="4"
+                            android:text="@string/your_rating"
+                            android:textColor="@color/colorLight"
+                            android:textSize="@dimen/default_font" />
+
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rc_media_game_comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/layout"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginBottom="@dimen/_5sdp"></android.support.v7.widget.RecyclerView>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <WebView
+                android:id="@+id/web_view_game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"></WebView>
+
+            <include
+                android:id="@+id/pv_game_loading"
+                layout="@layout/view_loading" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/amirreza/Android/Haftaan/TMessagesProj/build/intermediates/incremental/mergeAfatDebugResources/merged.dir/values-v15/values-v15.xml",
+            "map": [
+                {
+                    "source": "/Users/amirreza/Android/Haftaan/TMessagesProj/src/main/res/values-v15/bools.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "56",
+                        "endColumns": "53",
+                        "endOffsets": "105"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "53",
+                        "endOffsets": "104"
+                    }
+                }
+            ]
+        }
+    ]
+}

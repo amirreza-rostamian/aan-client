@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_3sdp"
+    card_view:cardCornerRadius="@dimen/_3sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <me.himanshusoni.chatmessageview.ui.BottomPicker.view.TedSquareFrameLayout
+            android:id="@+id/vImageRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imv_my_pic"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:scaleType="centerCrop" />
+
+            <me.himanshusoni.chatmessageview.ui.ProgressView
+                android:id="@+id/pv_loading_my_pic"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_gravity="center"
+                app:hive_animDuration="5000"
+                app:hive_color="@color/colorAccent"
+                app:hive_cornerRadius="20"
+                app:hive_maxAlpha="255"
+                app:hive_rainbow="true"
+                app:hive_shrink="true" />
+
+
+        </me.himanshusoni.chatmessageview.ui.BottomPicker.view.TedSquareFrameLayout>
+
+        <me.himanshusoni.chatmessageview.ui.MTextViewBold
+            android:id="@+id/tv_my_pic_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:gravity="right|center"
+            android:paddingRight="@dimen/_15sdp"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/large_font" />
+
+        <me.himanshusoni.chatmessageview.ui.MTextView
+            android:id="@+id/tv_my_pic_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:gravity="right|center"
+            android:paddingRight="@dimen/_15sdp"
+            android:textColor="@color/colorLight"
+            android:textSize="@dimen/default_font" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:alpha="0.2"
+            android:background="@color/colorLight"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/btn_more_my_pic"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:alpha="0.3"
+                android:padding="@dimen/_4sdp"
+                app:srcCompat="@drawable/ic_more" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:alpha="0.3"
+                android:padding="@dimen/_4sdp"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_favorite" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imv_my_pic_share"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:alpha="0.3"
+                android:padding="@dimen/_2sdp"
+                app:srcCompat="@drawable/ic_share_post" />
+
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/imv_my_pic_like"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_2sdp"
+                app:srcCompat="@drawable/ic_like_red" />
+
+            <me.himanshusoni.chatmessageview.ui.MTextView
+                android:id="@+id/tv_my_pic_like"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/default_font" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right">
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:alpha="0.3"
+                    android:padding="@dimen/_4sdp"
+                    app:srcCompat="@drawable/ic_view" />
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/tv_my_pic_view_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="@dimen/_15sdp"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/default_font" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

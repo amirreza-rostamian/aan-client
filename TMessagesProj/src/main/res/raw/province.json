@@ -1,0 +1,194 @@
+{
+  "#source": [
+  ],
+  "province": [
+    {
+      "ostan_id": 1,
+      "ostan_name": "آذربایجان شرقی",
+      "ostan_code": 41,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 2,
+      "ostan_name": "آذربایجان غربی",
+      "ostan_code": 44,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 3,
+      "ostan_name": "اردبیل",
+      "ostan_code": 45,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 4,
+      "ostan_name": "اصفهان",
+      "ostan_code": 31,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 6,
+      "ostan_name": "ایلام",
+      "ostan_code": 84,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 7,
+      "ostan_name": "بوشهر",
+      "ostan_code": 77,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 8,
+      "ostan_name": "تهران",
+      "ostan_code": 21,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 10,
+      "ostan_name": "خراسان جنوبی",
+      "ostan_code": 56,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 11,
+      "ostan_name": "خراسان رضوی",
+      "ostan_code": 51,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 12,
+      "ostan_name": "خراسان شمالی",
+      "ostan_code": 58,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 13,
+      "ostan_name": "خوزستان",
+      "ostan_code": 61,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 14,
+      "ostan_name": "زنجان",
+      "ostan_code": 24,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 15,
+      "ostan_name": "سمنان",
+      "ostan_code": 23,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 16,
+      "ostan_name": "سیستان",
+      "ostan_code": 54,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 17,
+      "ostan_name": "فارس",
+      "ostan_code": 71,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 18,
+      "ostan_name": "قزوین",
+      "ostan_code": 28,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 19,
+      "ostan_name": "قم",
+      "ostan_code": 25,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 26,
+      "ostan_name": "لرستان",
+      "ostan_code": 66,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 27,
+      "ostan_name": "مازندران",
+      "ostan_code": 11,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 29,
+      "ostan_name": "هرمزگان",
+      "ostan_code": 76,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 30,
+      "ostan_name": "همدان",
+      "ostan_code": 81,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 9,
+      "ostan_name": "چهار محال",
+      "ostan_code": 38,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 20,
+      "ostan_name": "کردستان",
+      "ostan_code": 87,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 21,
+      "ostan_name": "کرمان",
+      "ostan_code": 34,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 22,
+      "ostan_name": "کرمانشاه",
+      "ostan_code": 83,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 23,
+      "ostan_name": "کهکلویه",
+      "ostan_code": 74,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 24,
+      "ostan_name": "گلستان",
+      "ostan_code": 17,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 25,
+      "ostan_name": "گیلان",
+      "ostan_code": 13,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 31,
+      "ostan_name": "یزد",
+      "ostan_code": 35,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 5,
+      "ostan_name": "البرز",
+      "ostan_code": 26,
+      "country_id": 1
+    },
+    {
+      "ostan_id": 28,
+      "ostan_name": "مرکزی",
+      "ostan_code": 86,
+      "country_id": 1
+    }
+  ]
+}
+
+

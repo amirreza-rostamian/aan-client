@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <LinearLayout
+        android:id="@+id/ll_about_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@color/colorLightGray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true">
+
+                <RelativeLayout
+                    android:id="@+id/rl_update_profile_select_file"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginBottom="@dimen/_20sdp">
+
+
+                    <me.himanshusoni.chatmessageview.ui.CircleImageView
+                        android:id="@+id/imv_edit_profile_icon"
+                        android:layout_width="@dimen/_90sdp"
+                        android:layout_height="@dimen/_90sdp"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/amir"
+                        android:visibility="gone"
+                        app:civ_border_color="@color/colorLight"
+                        app:civ_border_overlay="true"
+                        app:civ_border_width="@dimen/_3sdp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_avatar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:minHeight="@dimen/_90sdp"
+                        android:orientation="vertical"></LinearLayout>
+
+                    <me.himanshusoni.chatmessageview.ui.MButton
+                        android:id="@+id/btn_edit_profile_select_file"
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_below="@+id/ll_avatar"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/selector_sub_category"
+                        android:gravity="center"
+                        android:text="@string/hint_select_pic"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/small_font" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/divider_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.1dp"
+                    android:layout_below="@+id/rl_update_profile_select_file"
+                    android:alpha="0.2"
+                    android:orientation="vertical" />
+
+                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/divider_login">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:weightSum="100">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:layout_weight="100"
+                            android:orientation="vertical"
+                            android:weightSum="100">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <me.himanshusoni.chatmessageview.ui.MEditText
+                                    android:id="@+id/et_edit_first_name"
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_weight="100"
+                                    android:background="@drawable/stroke_bgr"
+                                    android:gravity="center|right"
+                                    android:hint="@string/FirstName"
+                                    android:inputType="text"
+                                    android:maxLength="20"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:textColor="@color/colorGray"
+                                    android:textColorHint="@color/colorLight"
+                                    android:textSize="@dimen/default_font" />
+
+                                <me.himanshusoni.chatmessageview.ui.MTextView
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_marginRight="@dimen/_10sdp"
+                                    android:gravity="center|right"
+                                    android:hint="@string/FirstName"
+                                    android:inputType="text"
+                                    android:maxLength="20"
+                                    android:paddingRight="@dimen/_5sdp"
+                                    android:textColor="@color/colorGray"
+                                    android:textColorHint="@color/colorGray"
+                                    android:textSize="@dimen/default_font" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:orientation="horizontal">
+
+                                <me.himanshusoni.chatmessageview.ui.MEditText
+                                    android:id="@+id/et_edit_last_name"
+                                    android:layout_width="0dp"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_weight="100"
+                                    android:background="@drawable/stroke_bgr"
+                                    android:gravity="center|right"
+                                    android:hint="@string/LastName"
+                                    android:inputType="text"
+                                    android:maxLength="20"
+                                    android:paddingRight="@dimen/_10sdp"
+                                    android:textColor="@color/colorGray"
+                                    android:textColorHint="@color/colorLight"
+                                    android:textSize="@dimen/default_font" />
+
+                                <me.himanshusoni.chatmessageview.ui.MTextView
+                                    android:layout_width="@dimen/_100sdp"
+                                    android:layout_height="@dimen/_35sdp"
+                                    android:layout_marginLeft="@dimen/_10sdp"
+                                    android:layout_marginRight="@dimen/_10sdp"
+                                    android:gravity="center|right"
+                                    android:hint="@string/LastName"
+                                    android:inputType="text"
+                                    android:maxLength="20"
+                                    android:paddingRight="@dimen/_5sdp"
+                                    android:textColor="@color/colorGray"
+                                    android:textColorHint="@color/colorGray"
+                                    android:textSize="@dimen/default_font" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/pv_edit_profile"
+        layout="@layout/view_loading"
+        android:visibility="gone" />
+</RelativeLayout>

@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:layout_marginBottom="@dimen/_4sdp"
+    android:orientation="vertical"
+    android:padding="1sp">
+
+    <me.himanshusoni.chatmessageview.ChatMessageView
+        android:id="@+id/chatMessageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_32sdp"
+        app:cmv_arrowGravity="start"
+        app:cmv_arrowPosition="left"
+        app:cmv_backgroundColor="#ffffff"
+        app:cmv_backgroundColorPressed="#ffffff"
+        app:cmv_contentPadding="0dp"
+        app:cmv_cornerRadius="@dimen/_6sdp"
+        app:cmv_showArrow="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:textColor="#424242">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                    android:id="@+id/text_QuestionMatch_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:background="@drawable/shape_oval_bg"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text=""
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+
+                    <me.himanshusoni.chatmessageview.ui.MTextView
+                        android:id="@+id/text_QuestionMatch_captionTimer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:text="00:0 ثانیه"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_10sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/text_QuestionMatch_timer"
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="wrap_content"
+                        android:gravity="left|center"
+                        android:padding="@dimen/_2sdp"
+                        android:text="10"
+                        android:textColor="@color/colorGreen"
+                        android:textSize="@dimen/_12sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/text_QuestionMatch_captionTimer"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/txt_QuestionMatch_captionEnd"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_4sdp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="@dimen/_3sdp"
+                        android:text="وقت تموم شد"
+                        android:textColor="@color/colorRed"
+                        android:textSize="@dimen/_13sdp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </android.support.constraint.ConstraintLayout>
+
+
+                <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                    android:id="@+id/txt_QuestionMatch_countUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/_4sdp"
+                    android:layout_marginLeft="@dimen/_4sdp"
+                    android:background="@drawable/shape_oval_bg"
+                    android:gravity="center"
+                    android:padding="@dimen/_8sdp"
+                    android:text=""
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                android:id="@+id/txt_QuestionMatch_titleQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:padding="@dimen/_3sdp"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/_10sdp"
+                tools:text="صورت سوال" />
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_QuestionMatch_parentAnswerOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/shape_oval_bg">
+
+
+                <ProgressBar
+                    android:id="@+id/progress_QuestionMatch_answerOne"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:indeterminate="false"
+                    android:progress="10"
+                    android:progressDrawable="@drawable/curved_progress_bar_transparent"
+                    android:rotation="180"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <LinearLayout
+                    android:id="@+id/linear_QuestionMatch_answerOne"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/text_QuestionMatch_countAnswerOne"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:padding="@dimen/_3sdp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextView
+                        android:id="@+id/text_QuestionMatch_titleAnswerOne"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_4sdp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_11sdp"
+                        tools:text="مرکز دایره محاطی" />
+                </LinearLayout>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_QuestionMatch_parentAnswerTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/shape_oval_bg">
+
+                <ProgressBar
+                    android:id="@+id/progress_QuestionMatch_answerTwo"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:indeterminate="false"
+                    android:progress="10"
+                    android:progressDrawable="@drawable/curved_progress_bar_transparent"
+                    android:rotation="180"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <LinearLayout
+                    android:id="@+id/linear_QuestionMatch_answerTwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/text_QuestionMatch_countAnswerTwo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:padding="@dimen/_3sdp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextView
+                        android:id="@+id/text_QuestionMatch_titleAnswerTwo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_4sdp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:text="مرکز دایره محاطی"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_11sdp"
+                        tools:text="مرکز دایره محاطی" />
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraint_QuestionMatch_parentAnswerThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/shape_oval_bg">
+
+                <ProgressBar
+                    android:id="@+id/progress_QuestionMatch_answerThree"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_36sdp"
+                    android:layout_margin="@dimen/_1sdp"
+                    android:indeterminate="false"
+                    android:progress="10"
+                    android:progressDrawable="@drawable/curved_progress_bar_transparent"
+                    android:rotation="180"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <LinearLayout
+                    android:id="@+id/linear_QuestionMatch_answerThree"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+                        android:id="@+id/text_QuestionMatch_countAnswerThree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_4sdp"
+                        android:gravity="center"
+                        android:padding="@dimen/_3sdp"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_9sdp" />
+
+                    <me.himanshusoni.chatmessageview.ui.MTextView
+                        android:id="@+id/text_QuestionMatch_titleAnswerThree"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/_4sdp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:padding="@dimen/_3sdp"
+                        android:text="مرکز دایره محاطی"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/_11sdp"
+                        tools:text="مرکز دایره محاطی" />
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:gravity="center|right"
+                android:orientation="horizontal">
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/txt_QuestionMatch_countStar"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_68sdp"
+                    android:layout_marginRight="@dimen/_20sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_btn_blue"
+                    android:gravity="center"
+                    android:padding="@dimen/_3sdp"
+                    android:text="تعداد ستاره شما"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/_10sdp"
+                    android:visibility="visible" />
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/text_QuestionMatch_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:padding="@dimen/_3sdp"
+                    android:text="19:41"
+                    android:textColor="#424242"
+                    android:textSize="@dimen/_8sdp" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    app:srcCompat="@drawable/ic_all_check" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </me.himanshusoni.chatmessageview.ChatMessageView>
+
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/img_QuestionMatch_resultQuestionIcon"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/linear_QuestionMatch_parentIsContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginRight="@dimen/_32sdp"
+        android:orientation="horizontal">
+
+        <me.himanshusoni.chatmessageview.ui.MButton
+            android:id="@+id/btn_QuestionMatch_cancel"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_marginRight="@dimen/_2sdp"
+            android:layout_weight="0.30"
+            android:background="@drawable/shape_rect_bg_btn_role"
+            android:gravity="center"
+            android:text="بیخیال"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp" />
+
+        <me.himanshusoni.chatmessageview.ui.MButton
+            android:id="@+id/btn_QuestionMatch_continue"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginRight="@dimen/_4sdp"
+            android:layout_weight="0.70"
+            android:background="@drawable/shape_rect_bg_btn_role"
+            android:gravity="center"
+            android:text="ادامه میدی؟(یک ستاره باید بدی)"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/_11sdp" />
+
+    </LinearLayout>
+</LinearLayout>
+

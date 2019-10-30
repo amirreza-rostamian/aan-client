@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="ChatMessageView">
+        <attr name="cmv_showArrow" format="boolean" />
+        <attr name="cmv_arrowPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="top" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="cmv_arrowGravity" format="enum">
+            <enum name="start" value="0" />
+            <enum name="center" value="1" />
+            <enum name="end" value="2" />
+        </attr>
+        <attr name="cmv_backgroundColor" format="color" />
+        <attr name="cmv_backgroundColorPressed" format="color" />
+        <attr name="cmv_cornerRadius" format="dimension" />
+        <attr name="cmv_contentPadding" format="dimension" />
+        <attr name="cmv_arrowMargin" format="dimension" />
+
+    </declare-styleable>
+
+    <attr name="PermissionBackround" format="reference"></attr>
+    <attr name="PermissionTitleColor" format="color"></attr>
+    <item name="FloatingText_wrapper" type="id" />
+    <attr name="PermissionMsgColor" format="color"></attr>
+    <attr name="PermissionItemTextColor" format="color"></attr>
+    <attr name="PermissionButtonTextColor" format="color"></attr>
+    <attr name="PermissionButtonBackground" format="reference"></attr>
+    <attr name="PermissionBgFilterColor" format="color"></attr>
+    <attr name="PermissionIconFilterColor" format="color"></attr>
+    <attr name="mwhWaves" format="string|enum">
+        <enum name="MultiWave" value="-1" />
+        <enum name="PairWave" value="-2" />
+    </attr>
+    <declare-styleable name="StepIndicator">
+        <attr name="siStepCount" format="integer" />
+        <attr name="siRadius" format="dimension" />
+        <attr name="siStrokeWidth" format="dimension" />
+        <attr name="siStepColor" format="color" />
+        <attr name="siCurrentStepColor" format="color" />
+        <attr name="siBackgroundColor" format="color" />
+        <attr name="siTextColor" format="color" />
+        <attr name="siSecondaryTextColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="MultiWaveHeader">
+        <attr name="mwhWaveHeight" format="dimension" />
+        <attr name="mwhStartColor" format="color" />
+        <attr name="mwhCloseColor" format="color" />
+        <attr name="mwhIsRunning" format="boolean" />
+        <attr name="mwhColorAlpha" format="fraction|float" />
+        <attr name="mwhProgress" format="fraction|float" />
+        <attr name="mwhVelocity" format="fraction|float" />
+        <attr name="mwhGradientAngle" format="integer" />
+        <attr name="mwhWaves" />
+    </declare-styleable>
+    <declare-styleable name="TedBottomPickerImageView">
+        <attr name="foreground" format="reference" />
+        <attr name="fit_mode" format="string" />
+    </declare-styleable>
+    <declare-styleable name="RampImageView">
+        <attr name="riv_rampHeight" format="dimension" />
+        <attr name="riv_rampStartPercent" format="float" />
+        <attr name="riv_rampColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TimelyView">
+        <attr name="text_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="TimeLineView">
+        <attr name="beginLine" format="color|reference" />
+        <attr name="endLine" format="color|reference" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="timeLineMarker" format="color|reference" />
+        <attr name="timeLineMarkerSize" format="dimension" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TedBottomPickerSquareView">
+        <attr name="matchHeightToWidth" format="boolean" />
+        <attr name="matchWidthToHeight" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomBar">
+        <attr name="bb_tabXmlResource" format="reference" />
+        <attr name="bb_tabletMode" format="boolean" />
+        <attr name="bb_behavior">
+            <flag name="shifting" value="1" />
+            <flag name="shy" value="2" />
+            <flag name="underNavbar" value="4" />
+            <flag name="iconsOnly" value="8" />
+        </attr>
+        <attr name="bb_longPressHintsEnabled" format="boolean" />
+        <attr name="bb_inActiveTabAlpha" format="float" />
+        <attr name="bb_activeTabAlpha" format="float" />
+        <attr name="bb_inActiveTabColor" format="color" />
+        <attr name="bb_activeTabColor" format="color" />
+        <attr name="bb_badgeBackgroundColor" format="color" />
+        <attr name="bb_badgesHideWhenActive" format="boolean" />
+        <attr name="bb_titleTextAppearance" format="reference" />
+        <attr name="bb_titleTypeFace" format="string" />
+        <attr name="bb_showShadow" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="NavigationTabStrip">
+        <attr name="nts_color" format="color" />
+        <attr name="nts_size" format="dimension" />
+        <attr name="nts_weight" format="dimension" />
+        <attr name="nts_factor" format="float" />
+        <attr name="nts_titles" format="reference" />
+        <attr name="nts_bold" value="true" />
+
+        <attr name="nts_type" format="enum">
+            <enum name="line" value="0" />
+            <enum name="point" value="1" />
+        </attr>
+        <attr name="nts_gravity" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+        </attr>
+
+        <attr name="nts_typeface" format="string" />
+        <attr name="nts_corners_radius" format="dimension" />
+        <attr name="nts_animation_duration" format="integer" />
+
+        <attr name="nts_inactive_color" format="color" />
+        <attr name="nts_active_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialSpinner" tools:ignore="ResourceName">
+        <attr name="ms_arrow_tint" format="color" />
+        <attr name="ms_hide_arrow" format="boolean" />
+        <attr name="ms_background_color" format="color" />
+        <attr name="ms_text_color" format="color" />
+        <attr name="ms_dropdown_max_height" format="dimension" />
+        <attr name="ms_dropdown_height" format="dimension">
+            <enum name="fill_parent" value="-1" />
+            <enum name="match_parent" value="-1" />
+            <enum name="wrap_content" value="-2" />
+        </attr>
+        <attr name="ms_background_selector" format="integer" />
+        <attr name="ms_hint" format="string" />
+        <attr name="ms_hint_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ProgressView">
+        <attr name="hive_animDuration" format="integer" />
+        <attr name="hive_maxAlpha" format="integer" />
+        <attr name="hive_color" format="color" />
+        <attr name="hive_rainbow" format="boolean" />
+        <attr name="hive_cornerRadius" format="integer" />
+        <attr name="hive_shrink" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="LikeView">
+        <attr name="like_textSize" format="dimension" />
+        <attr name="like_iconSize" format="dimension" />
+        <attr name="like_canCancel" format="boolean" />
+        <attr name="like_hasFly" format="boolean" />
+    </declare-styleable>
+    <attr name="mpm_primaryTextColor" format="color|reference" />
+    <attr name="mpm_secondaryTextColor" format="color|reference" />
+    <attr name="mpm_activeIconColor" format="color|reference" />
+    <attr name="mpm_separatorColor" format="color|reference" />
+    <declare-styleable name="BannerView">
+        <attr name="points_visibility" format="boolean" />
+        <attr name="points_position" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="LEFT" value="1" />
+            <enum name="RIGHT" value="2" />
+        </attr>
+        <attr name="points_container_background" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandingItem">
+        <attr name="item_layout" format="reference" />
+        <attr name="sub_item_layout" format="reference" />
+        <attr name="separator_layout" format="reference" />
+        <attr name="indicator_size" format="dimension" />
+        <attr name="indicator_margin_left" format="dimension" />
+        <attr name="indicator_margin_right" format="dimension" />
+        <attr name="show_indicator" format="boolean" />
+        <attr name="show_animation" format="boolean" />
+        <attr name="start_collapsed" format="boolean" />
+        <attr name="animation_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="TagView">
+        <attr name="lineMargin" format="dimension" />
+        <attr name="tagMargin" format="dimension" />
+        <attr name="textPaddingLeft" format="dimension" />
+        <attr name="textPaddingRight" format="dimension" />
+        <attr name="textPaddingTop" format="dimension" />
+        <attr name="textPaddingBottom" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="AudioPlayerTextView">
+        <attr name="playText" format="string" />
+        <attr name="stopText" format="string" />
+        <attr name="loadingText" format="string" />
+        <attr name="useIcons" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PersianDatePicker">
+        <attr name="minYear" format="integer" />
+        <attr name="maxYear" format="integer" />
+        <attr name="selectedYear" format="integer" />
+        <attr name="selectedMonth" format="integer" />
+        <attr name="selectedDay" format="integer" />
+        <attr name="displayMonthNames" format="boolean" />
+        <attr name="yearRange" format="integer" />
+        <attr name="displayDescription" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RoundCornerProgress">
+        <attr name="rcReverse" format="boolean" />
+        <attr name="rcProgress" format="float" />
+        <attr name="rcMax" format="float" />
+        <attr name="rcSecondaryProgress" format="float" />
+        <attr name="rcBackgroundPadding" format="dimension" />
+        <attr name="rcRadius" format="dimension" />
+        <attr name="rcProgressColor" format="color" />
+        <attr name="rcSecondaryProgressColor" format="color" />
+        <attr name="rcBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="IconRoundCornerProgress">
+        <attr name="rcIconSrc" format="integer" />
+        <attr name="rcIconSize" format="dimension" />
+        <attr name="rcIconWidth" format="dimension" />
+        <attr name="rcIconHeight" format="dimension" />
+        <attr name="rcIconPadding" format="dimension" />
+        <attr name="rcIconPaddingLeft" format="dimension" />
+        <attr name="rcIconPaddingRight" format="dimension" />
+        <attr name="rcIconPaddingTop" format="dimension" />
+        <attr name="rcIconPaddingBottom" format="dimension" />
+        <attr name="rcIconBackgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="TextRoundCornerProgress">
+        <attr name="rcTextProgressColor" format="color" />
+        <attr name="rcTextProgressSize" format="dimension" />
+        <attr name="rcTextProgressMargin" format="dimension" />
+        <attr name="rcTextProgress" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CountDownView">
+        <attr name="cd_circle_radius" format="dimension" />
+        <attr name="cd_arc_width" format="dimension" />
+        <attr name="cd_arc_color" format="color" />
+        <attr name="cd_bg_color" format="color" />
+        <attr name="cd_text_color" format="color" />
+        <attr name="cd_text_size" format="dimension" />
+        <attr name="cd_animator_time" format="integer" />
+        <attr name="cd_animator_time_unit" format="string" />
+        <attr name="cd_retreat_type" format="enum">
+            <enum name="forward" value="1" />
+            <enum name="back" value="2" />
+        </attr>
+        <attr name="cd_location" format="enum">
+            <enum name="left" value="1" />
+            <enum name="top" value="2" />
+            <enum name="right" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <me.himanshusoni.chatmessageview.ui.RtlTabLayout
+        android:id="@+id/tab_media_market_Category"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@android:color/white"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@color/colorBlack"
+        app:tabIndicatorHeight="@dimen/_1sdp"
+        app:tabMode="fixed"
+        app:tabPaddingEnd="@dimen/_2sdp"
+        app:tabPaddingStart="@dimen/_2sdp"
+        app:tabTextColor="@color/colorLight" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_media_market_Item"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tab_media_Category" />
+
+    <FrameLayout
+        android:id="@+id/frame_media_market_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tab_media_Category"
+        android:fitsSystemWindows="true" />
+
+
+</LinearLayout>

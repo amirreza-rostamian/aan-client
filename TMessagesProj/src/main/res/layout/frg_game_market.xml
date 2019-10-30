@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rc_vitrin_game_filter"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/white"
+            android:clipToPadding="false"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp" />
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_vitrin_game"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/rc_vitrin_game_filter">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_vitrin_game"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/empty_vitrin_game_data"
+        layout="@layout/view_empty_data"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/pv_vitrin_game_loading"
+        layout="@layout/view_loading" />
+
+</android.support.design.widget.CoordinatorLayout>

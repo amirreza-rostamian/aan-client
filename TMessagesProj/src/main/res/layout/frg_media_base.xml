@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:padding="@dimen/_2sdp">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_media"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rc_tab_media_Category"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_70sdp"
+                android:background="@color/white"
+                android:clipToPadding="false"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/rc_tab_media_Category">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/rc_cat_media"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@color/white"
+                    android:clipToPadding="false"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:paddingRight="@dimen/_10sdp" />
+
+                <ir.amin.HaftTeen.vasni.utils.grid.AsymmetricGridView
+                    android:id="@+id/gv_media"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/rc_cat_media"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:divider="@android:color/transparent"
+                    android:fadingEdge="none"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:listSelector="#00000000" />
+
+                <include
+                    android:id="@+id/empty_media_data"
+                    layout="@layout/view_empty_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/_40sdp"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/pv_media_loading"
+                    layout="@layout/view_loading" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <include
+        android:id="@+id/pv_media_base_loading"
+        layout="@layout/view_loading" />
+
+</RelativeLayout>

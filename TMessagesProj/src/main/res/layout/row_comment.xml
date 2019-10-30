@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_2sdp">
+
+
+    <LinearLayout
+        android:id="@+id/llCategoryContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="100"
+            android:background="@color/colorLightGray"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/tv_date_comment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    android:gravity="center|left"
+                    android:textColor="@color/colorLight"
+                    android:textSize="@dimen/small_font" />
+
+
+                <me.himanshusoni.chatmessageview.ui.MTextView
+                    android:id="@+id/tv_comment_user_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_weight="60"
+                    android:gravity="center|right"
+                    android:text="@string/FirstName"
+                    android:textColor="@color/colorLight"
+                    android:textSize="@dimen/small_font" />
+
+            </LinearLayout>
+
+            <me.himanshusoni.chatmessageview.ui.MTextView
+                android:id="@+id/tv_message_comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:gravity="center|right"
+                android:minHeight="@dimen/_25sdp"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/default_font" />
+
+        </LinearLayout>
+
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imv_comment"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@color/white"
+            android:clickable="false"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/ic_account_circle" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

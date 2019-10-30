@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="PermissionBackround" format="reference"></attr>
+    <attr name="PermissionTitleColor" format="color"></attr>
+    <item name="FloatingText_wrapper" type="id" />
+    <attr name="PermissionMsgColor" format="color"></attr>
+    <attr name="PermissionItemTextColor" format="color"></attr>
+    <attr name="PermissionButtonTextColor" format="color"></attr>
+    <attr name="PermissionButtonBackground" format="reference"></attr>
+    <attr name="PermissionBgFilterColor" format="color"></attr>
+    <attr name="PermissionIconFilterColor" format="color"></attr>
+
+    <declare-styleable name="RotateLoading">
+        <attr name="loading_width" format="dimension" />
+        <attr name="loading_color" format="color" />
+        <attr name="shadow_offset" format="dimension" />
+        <attr name="loading_visible" format="boolean" />
+    </declare-styleable>
+
+</resources>

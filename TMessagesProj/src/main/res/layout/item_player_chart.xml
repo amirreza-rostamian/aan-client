@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_4sdp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <me.himanshusoni.chatmessageview.ui.MTextView
+        android:id="@+id/star"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:layout_weight="30"
+        android:gravity="right|center"
+        android:paddingRight="@dimen/_5sdp"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_8sdp" />
+
+    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="50"
+        android:gravity="right|center"
+        android:paddingRight="@dimen/_5sdp"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_10sdp" />
+
+    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+        android:id="@+id/user_rank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:paddingRight="@dimen/_5sdp"
+        android:textColor="@color/colorGreen"
+        android:textSize="@dimen/_10sdp" />
+
+
+</LinearLayout>

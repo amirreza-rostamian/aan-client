@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="permissionNames">
+        <item>@string/permission_storage</item>
+        <item>@string/permission_location</item>
+        <item>@string/permission_camera</item>
+    </array>
+    <attr format="reference" name="PermissionBackround"/>
+    <attr format="color" name="PermissionBgFilterColor"/>
+    <attr format="reference" name="PermissionButtonBackground"/>
+    <attr format="color" name="PermissionButtonTextColor"/>
+    <attr format="color" name="PermissionIconFilterColor"/>
+    <attr format="color" name="PermissionItemTextColor"/>
+    <attr format="color" name="PermissionMsgColor"/>
+    <attr format="color" name="PermissionTitleColor"/>
+    <attr format="color|reference" name="mpm_activeIconColor"/>
+    <attr format="color|reference" name="mpm_primaryTextColor"/>
+    <attr format="color|reference" name="mpm_secondaryTextColor"/>
+    <attr format="color|reference" name="mpm_separatorColor"/>
+    <attr format="string|enum" name="mwhWaves">
+        <enum name="MultiWave" value="-1"/>
+        <enum name="PairWave" value="-2"/>
+    </attr>
+    <bool name="bb_bottom_bar_is_portrait_mode">true</bool>
+    <bool name="bb_bottom_bar_is_tablet_mode">false</bool>
+    <color name="LightPurple">#ec95ff</color>
+    <color name="background_default">#A5D6A7</color>
+    <color name="bb_darkBackgroundColor">#212121</color>
+    <color name="bb_inActiveBottomBarItemColor">#747474</color>
+    <color name="bb_tabletRightBorderDark">#505050</color>
+    <color name="bottom_dialog">#3F51B5</color>
+    <color name="colorAccent">#f25a57</color>
+    <color name="colorActive">#FFFFFF</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorInactive">#e7e6e7</color>
+    <color name="colorRed">#f25a57</color>
+    <color name="color_purples">#a20aff</color>
+    <color name="current_step_default">#ffffff</color>
+    <color name="dark">#5d6474</color>
+    <color name="dark_blue">#144050</color>
+    <color name="default_action_color">#26a69a</color>
+    <color name="default_bg_color">#5caf73</color>
+    <color name="default_message_color">#ffffff</color>
+    <color name="default_title_color">#ffffff</color>
+    <color name="divider_date_picker">#B2B2B2</color>
+    <color name="flat_pressed">#66999999</color>
+    <color name="initialColor">#17a3c5</color>
+    <color name="itemActiveColorWithoutColoredBackground">#2196F3</color>
+    <color name="lastColor">#3394d2</color>
+    <color name="mpm_black_12_opacity">#1F000000</color>
+    <color name="mpm_black_54_opacity">#8A000000</color>
+    <color name="mpm_black_87_opacity">#DE000000</color>
+    <color name="mpm_material_grey_50">#fafafa</color>
+    <color name="mpm_material_grey_850">#303030</color>
+    <color name="mpm_white">#FFFFFFFF</color>
+    <color name="mpm_white_12_opacity">#1FFFFFFF</color>
+    <color name="mpm_white_70_opacity">#B3FFFFFF</color>
+    <color name="permissionBgColorBlue">#ee447AA4</color>
+    <color name="permissionBgColorGreenLight">#44A49C</color>
+    <color name="permissionColorGreen">#29C034</color>
+    <color name="permissionColorWhite">#ffffff</color>
+    <color name="round_corner_progress_bar_background_default">#5f5f5f</color>
+    <color name="round_corner_progress_bar_progress_default">#7f7f7f</color>
+    <color name="round_corner_progress_bar_secondary_progress_default">@android:color/transparent
+    </color>
+    <color name="secondary_text_default">#ffffff</color>
+    <color name="step_default">#4CAF50</color>
+    <color name="stpi_default_circle_color">#b3bdc2</color>
+    <color name="stpi_default_line_color">#b3bdc2</color>
+    <color name="stpi_default_primary_color">#00b47c</color>
+    <color name="stpi_default_text_color">#000</color>
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="tabview_bg">#FAFBFB</color>
+    <color name="tabview_bg_light">#e1e2e9</color>
+    <color name="tabview_bg_stoke">#E0E0E0</color>
+    <color name="tabview_black">#000000</color>
+    <color name="tabview_grey">#9D9D9D</color>
+    <color name="tabview_light_grey">#E5E5E5</color>
+    <color name="tabview_orange">#EB5F2E</color>
+    <color name="tabview_selected_item_color">#007C92</color>
+    <color name="tabview_white">#ffffff</color>
+    <color name="tedbottompicker_camera">#000</color>
+    <color name="tedbottompicker_gallery">#ccc</color>
+    <color name="tedbottompicker_selected">#f0f0f0</color>
+    <color name="text_default">#000000</color>
+    <color name="transparent">#00ff0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="withoutColoredBackground">#00ff0000</color>
+    <declare-styleable name="AudioPlayerTextView"><attr format="string" name="playText"/><attr format="string" name="stopText"/><attr format="string" name="loadingText"/><attr format="boolean" name="useIcons"/></declare-styleable>
+    <declare-styleable name="BannerView"><attr format="boolean" name="points_visibility"/><attr format="enum" name="points_position">
+            <enum name="CENTER" value="0"/>
+            <enum name="LEFT" value="1"/>
+            <enum name="RIGHT" value="2"/>
+        </attr><attr format="reference|color" name="points_container_background"/></declare-styleable>
+    <declare-styleable name="BannerViews"><attr format="boolean" name="bvIsLoop"/><attr format="boolean" name="bvIsAuto"/><attr format="integer" name="bvDelay"/><attr format="integer" name="bvInterval"/><attr format="float" name="bvAspectRatio"/><attr format="color" name="bvBarColor"/><attr format="boolean" name="bvBarVisibleWhenLast"/><attr format="dimension" name="bvBarPaddingLeft"/><attr format="dimension" name="bvBarPaddingTop"/><attr format="dimension" name="bvBarPaddingRight"/><attr format="dimension" name="bvBarPaddingBottom"/><attr format="color" name="bvTitleColor"/><attr format="dimension" name="bvTitleSize"/><attr format="boolean" name="bvTitleVisible"/><attr format="integer" name="bvIndicatorVisible">
+            <enum name="auto" value="0"/>
+            <enum name="always" value="1"/>
+            <enum name="never" value="2"/>
+        </attr><attr name="bvIndicatorGravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr><attr format="dimension" name="bvIndicatorWidth"/><attr format="dimension" name="bvIndicatorHeight"/><attr format="dimension" name="bvIndicatorGap"/><attr format="color" name="bvIndicatorColor"/><attr format="color" name="bvIndicatorColorSelected"/><attr format="reference" name="bvIndicatorDrawable"/><attr format="reference" name="bvIndicatorDrawableSelected"/></declare-styleable>
+    <declare-styleable name="BottomBar"><attr format="reference" name="bb_tabXmlResource"/><attr format="boolean" name="bb_tabletMode"/><attr name="bb_behavior">
+            <flag name="shifting" value="1"/>
+            <flag name="shy" value="2"/>
+            <flag name="underNavbar" value="4"/>
+            <flag name="iconsOnly" value="8"/>
+        </attr><attr format="boolean" name="bb_longPressHintsEnabled"/><attr format="float" name="bb_inActiveTabAlpha"/><attr format="float" name="bb_activeTabAlpha"/><attr format="color" name="bb_inActiveTabColor"/><attr format="color" name="bb_activeTabColor"/><attr format="color" name="bb_badgeBackgroundColor"/><attr format="boolean" name="bb_badgesHideWhenActive"/><attr format="reference" name="bb_titleTextAppearance"/><attr format="string" name="bb_titleTypeFace"/><attr format="boolean" name="bb_showShadow"/></declare-styleable>
+    <declare-styleable name="ChatMessageView"><attr format="boolean" name="cmv_showArrow"/><attr format="enum" name="cmv_arrowPosition">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="bottom" value="3"/>
+        </attr><attr format="enum" name="cmv_arrowGravity">
+            <enum name="start" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="end" value="2"/>
+        </attr><attr format="color" name="cmv_backgroundColor"/><attr format="color" name="cmv_backgroundColorPressed"/><attr format="dimension" name="cmv_cornerRadius"/><attr format="dimension" name="cmv_contentPadding"/><attr format="dimension" name="cmv_arrowMargin"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/><attr format="color" name="civ_circle_background_color"/></declare-styleable>
+    <declare-styleable name="CountDownView"><attr format="dimension" name="cd_circle_radius"/><attr format="dimension" name="cd_arc_width"/><attr format="color" name="cd_arc_color"/><attr format="color" name="cd_bg_color"/><attr format="color" name="cd_text_color"/><attr format="dimension" name="cd_text_size"/><attr format="integer" name="cd_animator_time"/><attr format="string" name="cd_animator_time_unit"/><attr format="enum" name="cd_retreat_type">
+            <enum name="forward" value="1"/>
+            <enum name="back" value="2"/>
+        </attr><attr format="enum" name="cd_location">
+            <enum name="left" value="1"/>
+            <enum name="top" value="2"/>
+            <enum name="right" value="3"/>
+            <enum name="bottom" value="4"/>
+        </attr></declare-styleable>
+    <declare-styleable name="ExpandingItem"><attr format="reference" name="item_layout"/><attr format="reference" name="sub_item_layout"/><attr format="reference" name="separator_layout"/><attr format="dimension" name="indicator_size"/><attr format="dimension" name="indicator_margin_left"/><attr format="dimension" name="indicator_margin_right"/><attr format="boolean" name="show_indicator"/><attr format="boolean" name="show_animation"/><attr format="boolean" name="start_collapsed"/><attr format="integer" name="animation_duration"/></declare-styleable>
+    <declare-styleable name="IconRoundCornerProgress"><attr format="integer" name="rcIconSrc"/><attr format="dimension" name="rcIconSize"/><attr format="dimension" name="rcIconWidth"/><attr format="dimension" name="rcIconHeight"/><attr format="dimension" name="rcIconPadding"/><attr format="dimension" name="rcIconPaddingLeft"/><attr format="dimension" name="rcIconPaddingRight"/><attr format="dimension" name="rcIconPaddingTop"/><attr format="dimension" name="rcIconPaddingBottom"/><attr format="color" name="rcIconBackgroundColor"/></declare-styleable>
+    <declare-styleable name="LikeView"><attr format="dimension" name="like_textSize"/><attr format="dimension" name="like_iconSize"/><attr format="boolean" name="like_canCancel"/><attr format="boolean" name="like_hasFly"/></declare-styleable>
+    <declare-styleable name="MaterialSpinner"><attr format="color" name="ms_arrow_tint"/><attr format="boolean" name="ms_hide_arrow"/><attr format="color" name="ms_background_color"/><attr format="color" name="ms_text_color"/><attr format="dimension" name="ms_dropdown_max_height"/><attr format="dimension" name="ms_dropdown_height">
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr><attr format="integer" name="ms_background_selector"/><attr format="string" name="ms_hint"/><attr format="color" name="ms_hint_color"/></declare-styleable>
+    <declare-styleable name="MultiWaveHeader"><attr format="dimension" name="mwhWaveHeight"/><attr format="color" name="mwhStartColor"/><attr format="color" name="mwhCloseColor"/><attr format="boolean" name="mwhIsRunning"/><attr format="fraction|float" name="mwhColorAlpha"/><attr format="fraction|float" name="mwhProgress"/><attr format="fraction|float" name="mwhVelocity"/><attr format="integer" name="mwhGradientAngle"/><attr name="mwhWaves"/></declare-styleable>
+    <declare-styleable name="NavigationTabStrip"><attr format="color" name="nts_color"/><attr format="dimension" name="nts_size"/><attr format="dimension" name="nts_weight"/><attr format="float" name="nts_factor"/><attr format="reference" name="nts_titles"/><attr name="nts_bold" value="true"/><attr format="enum" name="nts_type">
+            <enum name="line" value="0"/>
+            <enum name="point" value="1"/>
+        </attr><attr format="enum" name="nts_gravity">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr format="string" name="nts_typeface"/><attr format="dimension" name="nts_corners_radius"/><attr format="integer" name="nts_animation_duration"/><attr format="color" name="nts_inactive_color"/><attr format="color" name="nts_active_color"/></declare-styleable>
+    <declare-styleable name="PersianDatePicker"><attr format="integer" name="minYear"/><attr format="integer" name="maxYear"/><attr format="integer" name="selectedYear"/><attr format="integer" name="selectedMonth"/><attr format="integer" name="selectedDay"/><attr format="boolean" name="displayMonthNames"/><attr format="integer" name="yearRange"/><attr format="boolean" name="displayDescription"/></declare-styleable>
+    <declare-styleable name="ProgressView"><attr format="integer" name="hive_animDuration"/><attr format="integer" name="hive_maxAlpha"/><attr format="color" name="hive_color"/><attr format="boolean" name="hive_rainbow"/><attr format="integer" name="hive_cornerRadius"/><attr format="boolean" name="hive_shrink"/></declare-styleable>
+    <declare-styleable name="RampImageView"><attr format="dimension" name="riv_rampHeight"/><attr format="float" name="riv_rampStartPercent"/><attr format="color" name="riv_rampColor"/></declare-styleable>
+    <declare-styleable name="RoundCornerProgress"><attr format="boolean" name="rcReverse"/><attr format="float" name="rcProgress"/><attr format="float" name="rcMax"/><attr format="float" name="rcSecondaryProgress"/><attr format="dimension" name="rcBackgroundPadding"/><attr format="dimension" name="rcRadius"/><attr format="color" name="rcProgressColor"/><attr format="color" name="rcSecondaryProgressColor"/><attr format="color" name="rcBackgroundColor"/></declare-styleable>
+    <declare-styleable name="StepIndicator"><attr format="integer" name="siStepCount"/><attr format="dimension" name="siRadius"/><attr format="dimension" name="siStrokeWidth"/><attr format="color" name="siStepColor"/><attr format="color" name="siCurrentStepColor"/><attr format="color" name="siBackgroundColor"/><attr format="color" name="siTextColor"/><attr format="color" name="siSecondaryTextColor"/></declare-styleable>
+    <declare-styleable name="TagView"><attr format="dimension" name="lineMargin"/><attr format="dimension" name="tagMargin"/><attr format="dimension" name="textPaddingLeft"/><attr format="dimension" name="textPaddingRight"/><attr format="dimension" name="textPaddingTop"/><attr format="dimension" name="textPaddingBottom"/></declare-styleable>
+    <declare-styleable name="TedBottomPickerImageView"><attr format="reference" name="foreground"/><attr format="string" name="fit_mode"/></declare-styleable>
+    <declare-styleable name="TedBottomPickerSquareView"><attr format="boolean" name="matchHeightToWidth"/><attr format="boolean" name="matchWidthToHeight"/></declare-styleable>
+    <declare-styleable name="TextRoundCornerProgress"><attr format="color" name="rcTextProgressColor"/><attr format="dimension" name="rcTextProgressSize"/><attr format="dimension" name="rcTextProgressMargin"/><attr format="string" name="rcTextProgress"/></declare-styleable>
+    <declare-styleable name="TimeLineView"><attr format="color|reference" name="beginLine"/><attr format="color|reference" name="endLine"/><attr format="dimension" name="lineWidth"/><attr format="color|reference" name="timeLineMarker"/><attr format="dimension" name="timeLineMarkerSize"/></declare-styleable>
+    <declare-styleable name="TimelyView"><attr format="color" name="text_color"/></declare-styleable>
+    <dimen name="_100sdp">100.00dp</dimen>
+    <dimen name="_101sdp">101.00dp</dimen>
+    <dimen name="_102sdp">102.00dp</dimen>
+    <dimen name="_103sdp">103.00dp</dimen>
+    <dimen name="_104sdp">104.00dp</dimen>
+    <dimen name="_105sdp">105.00dp</dimen>
+    <dimen name="_106sdp">106.00dp</dimen>
+    <dimen name="_107sdp">107.00dp</dimen>
+    <dimen name="_108sdp">108.00dp</dimen>
+    <dimen name="_109sdp">109.00dp</dimen>
+    <dimen name="_10sdp">10.00dp</dimen>
+    <dimen name="_110sdp">110.00dp</dimen>
+    <dimen name="_111sdp">111.00dp</dimen>
+    <dimen name="_112sdp">112.00dp</dimen>
+    <dimen name="_113sdp">113.00dp</dimen>
+    <dimen name="_114sdp">114.00dp</dimen>
+    <dimen name="_115sdp">115.00dp</dimen>
+    <dimen name="_116sdp">116.00dp</dimen>
+    <dimen name="_117sdp">117.00dp</dimen>
+    <dimen name="_118sdp">118.00dp</dimen>
+    <dimen name="_119sdp">119.00dp</dimen>
+    <dimen name="_11sdp">11.00dp</dimen>
+    <dimen name="_120sdp">120.00dp</dimen>
+    <dimen name="_121sdp">121.00dp</dimen>
+    <dimen name="_122sdp">122.00dp</dimen>
+    <dimen name="_123sdp">123.00dp</dimen>
+    <dimen name="_124sdp">124.00dp</dimen>
+    <dimen name="_125sdp">125.00dp</dimen>
+    <dimen name="_126sdp">126.00dp</dimen>
+    <dimen name="_127sdp">127.00dp</dimen>
+    <dimen name="_128sdp">128.00dp</dimen>
+    <dimen name="_129sdp">129.00dp</dimen>
+    <dimen name="_12sdp">12.00dp</dimen>
+    <dimen name="_130sdp">130.00dp</dimen>
+    <dimen name="_131sdp">131.00dp</dimen>
+    <dimen name="_132sdp">132.00dp</dimen>
+    <dimen name="_133sdp">133.00dp</dimen>
+    <dimen name="_134sdp">134.00dp</dimen>
+    <dimen name="_135sdp">135.00dp</dimen>
+    <dimen name="_136sdp">136.00dp</dimen>
+    <dimen name="_137sdp">137.00dp</dimen>
+    <dimen name="_138sdp">138.00dp</dimen>
+    <dimen name="_139sdp">139.00dp</dimen>
+    <dimen name="_13sdp">13.00dp</dimen>
+    <dimen name="_140sdp">140.00dp</dimen>
+    <dimen name="_141sdp">141.00dp</dimen>
+    <dimen name="_142sdp">142.00dp</dimen>
+    <dimen name="_143sdp">143.00dp</dimen>
+    <dimen name="_144sdp">144.00dp</dimen>
+    <dimen name="_145sdp">145.00dp</dimen>
+    <dimen name="_146sdp">146.00dp</dimen>
+    <dimen name="_147sdp">147.00dp</dimen>
+    <dimen name="_148sdp">148.00dp</dimen>
+    <dimen name="_149sdp">149.00dp</dimen>
+    <dimen name="_14sdp">14.00dp</dimen>
+    <dimen name="_150sdp">150.00dp</dimen>
+    <dimen name="_151sdp">151.00dp</dimen>
+    <dimen name="_152sdp">152.00dp</dimen>
+    <dimen name="_153sdp">153.00dp</dimen>
+    <dimen name="_154sdp">154.00dp</dimen>
+    <dimen name="_155sdp">155.00dp</dimen>
+    <dimen name="_156sdp">156.00dp</dimen>
+    <dimen name="_157sdp">157.00dp</dimen>
+    <dimen name="_158sdp">158.00dp</dimen>
+    <dimen name="_159sdp">159.00dp</dimen>
+    <dimen name="_15sdp">15.00dp</dimen>
+    <dimen name="_160sdp">160.00dp</dimen>
+    <dimen name="_161sdp">161.00dp</dimen>
+    <dimen name="_162sdp">162.00dp</dimen>
+    <dimen name="_163sdp">163.00dp</dimen>
+    <dimen name="_164sdp">164.00dp</dimen>
+    <dimen name="_165sdp">165.00dp</dimen>
+    <dimen name="_166sdp">166.00dp</dimen>
+    <dimen name="_167sdp">167.00dp</dimen>
+    <dimen name="_168sdp">168.00dp</dimen>
+    <dimen name="_169sdp">169.00dp</dimen>
+    <dimen name="_16sdp">16.00dp</dimen>
+    <dimen name="_170sdp">170.00dp</dimen>
+    <dimen name="_171sdp">171.00dp</dimen>
+    <dimen name="_172sdp">172.00dp</dimen>
+    <dimen name="_173sdp">173.00dp</dimen>
+    <dimen name="_174sdp">174.00dp</dimen>
+    <dimen name="_175sdp">175.00dp</dimen>
+    <dimen name="_176sdp">176.00dp</dimen>
+    <dimen name="_177sdp">177.00dp</dimen>
+    <dimen name="_178sdp">178.00dp</dimen>
+    <dimen name="_179sdp">179.00dp</dimen>
+    <dimen name="_17sdp">17.00dp</dimen>
+    <dimen name="_180sdp">180.00dp</dimen>
+    <dimen name="_181sdp">181.00dp</dimen>
+    <dimen name="_182sdp">182.00dp</dimen>
+    <dimen name="_183sdp">183.00dp</dimen>
+    <dimen name="_184sdp">184.00dp</dimen>
+    <dimen name="_185sdp">185.00dp</dimen>
+    <dimen name="_186sdp">186.00dp</dimen>
+    <dimen name="_187sdp">187.00dp</dimen>
+    <dimen name="_188sdp">188.00dp</dimen>
+    <dimen name="_189sdp">189.00dp</dimen>
+    <dimen name="_18sdp">18.00dp</dimen>
+    <dimen name="_190sdp">190.00dp</dimen>
+    <dimen name="_191sdp">191.00dp</dimen>
+    <dimen name="_192sdp">192.00dp</dimen>
+    <dimen name="_193sdp">193.00dp</dimen>
+    <dimen name="_194sdp">194.00dp</dimen>
+    <dimen name="_195sdp">195.00dp</dimen>
+    <dimen name="_196sdp">196.00dp</dimen>
+    <dimen name="_197sdp">197.00dp</dimen>
+    <dimen name="_198sdp">198.00dp</dimen>
+    <dimen name="_199sdp">199.00dp</dimen>
+    <dimen name="_19sdp">19.00dp</dimen>
+    <dimen name="_1sdp">1.00dp</dimen>
+    <dimen name="_200sdp">200.00dp</dimen>
+    <dimen name="_201sdp">201.00dp</dimen>
+    <dimen name="_202sdp">202.00dp</dimen>
+    <dimen name="_203sdp">203.00dp</dimen>
+    <dimen name="_204sdp">204.00dp</dimen>
+    <dimen name="_205sdp">205.00dp</dimen>
+    <dimen name="_206sdp">206.00dp</dimen>
+    <dimen name="_207sdp">207.00dp</dimen>
+    <dimen name="_208sdp">208.00dp</dimen>
+    <dimen name="_209sdp">209.00dp</dimen>
+    <dimen name="_20sdp">20.00dp</dimen>
+    <dimen name="_210sdp">210.00dp</dimen>
+    <dimen name="_211sdp">211.00dp</dimen>
+    <dimen name="_212sdp">212.00dp</dimen>
+    <dimen name="_213sdp">213.00dp</dimen>
+    <dimen name="_214sdp">214.00dp</dimen>
+    <dimen name="_215sdp">215.00dp</dimen>
+    <dimen name="_216sdp">216.00dp</dimen>
+    <dimen name="_217sdp">217.00dp</dimen>
+    <dimen name="_218sdp">218.00dp</dimen>
+    <dimen name="_219sdp">219.00dp</dimen>
+    <dimen name="_21sdp">21.00dp</dimen>
+    <dimen name="_220sdp">220.00dp</dimen>
+    <dimen name="_221sdp">221.00dp</dimen>
+    <dimen name="_222sdp">222.00dp</dimen>
+    <dimen name="_223sdp">223.00dp</dimen>
+    <dimen name="_224sdp">224.00dp</dimen>
+    <dimen name="_225sdp">225.00dp</dimen>
+    <dimen name="_226sdp">226.00dp</dimen>
+    <dimen name="_227sdp">227.00dp</dimen>
+    <dimen name="_228sdp">228.00dp</dimen>
+    <dimen name="_229sdp">229.00dp</dimen>
+    <dimen name="_22sdp">22.00dp</dimen>
+    <dimen name="_230sdp">230.00dp</dimen>
+    <dimen name="_231sdp">231.00dp</dimen>
+    <dimen name="_232sdp">232.00dp</dimen>
+    <dimen name="_233sdp">233.00dp</dimen>
+    <dimen name="_234sdp">234.00dp</dimen>
+    <dimen name="_235sdp">235.00dp</dimen>
+    <dimen name="_236sdp">236.00dp</dimen>
+    <dimen name="_237sdp">237.00dp</dimen>
+    <dimen name="_238sdp">238.00dp</dimen>
+    <dimen name="_239sdp">239.00dp</dimen>
+    <dimen name="_23sdp">23.00dp</dimen>
+    <dimen name="_240sdp">240.00dp</dimen>
+    <dimen name="_241sdp">241.00dp</dimen>
+    <dimen name="_242sdp">242.00dp</dimen>
+    <dimen name="_243sdp">243.00dp</dimen>
+    <dimen name="_244sdp">244.00dp</dimen>
+    <dimen name="_245sdp">245.00dp</dimen>
+    <dimen name="_246sdp">246.00dp</dimen>
+    <dimen name="_247sdp">247.00dp</dimen>
+    <dimen name="_248sdp">248.00dp</dimen>
+    <dimen name="_249sdp">249.00dp</dimen>
+    <dimen name="_24sdp">24.00dp</dimen>
+    <dimen name="_250sdp">250.00dp</dimen>
+    <dimen name="_251sdp">251.00dp</dimen>
+    <dimen name="_252sdp">252.00dp</dimen>
+    <dimen name="_253sdp">253.00dp</dimen>
+    <dimen name="_254sdp">254.00dp</dimen>
+    <dimen name="_255sdp">255.00dp</dimen>
+    <dimen name="_256sdp">256.00dp</dimen>
+    <dimen name="_257sdp">257.00dp</dimen>
+    <dimen name="_258sdp">258.00dp</dimen>
+    <dimen name="_259sdp">259.00dp</dimen>
+    <dimen name="_25sdp">25.00dp</dimen>
+    <dimen name="_260sdp">260.00dp</dimen>
+    <dimen name="_261sdp">261.00dp</dimen>
+    <dimen name="_262sdp">262.00dp</dimen>
+    <dimen name="_263sdp">263.00dp</dimen>
+    <dimen name="_264sdp">264.00dp</dimen>
+    <dimen name="_265sdp">265.00dp</dimen>
+    <dimen name="_266sdp">266.00dp</dimen>
+    <dimen name="_267sdp">267.00dp</dimen>
+    <dimen name="_268sdp">268.00dp</dimen>
+    <dimen name="_269sdp">269.00dp</dimen>
+    <dimen name="_26sdp">26.00dp</dimen>
+    <dimen name="_270sdp">270.00dp</dimen>
+    <dimen name="_271sdp">271.00dp</dimen>
+    <dimen name="_272sdp">272.00dp</dimen>
+    <dimen name="_273sdp">273.00dp</dimen>
+    <dimen name="_274sdp">274.00dp</dimen>
+    <dimen name="_275sdp">275.00dp</dimen>
+    <dimen name="_276sdp">276.00dp</dimen>
+    <dimen name="_277sdp">277.00dp</dimen>
+    <dimen name="_278sdp">278.00dp</dimen>
+    <dimen name="_279sdp">279.00dp</dimen>
+    <dimen name="_27sdp">27.00dp</dimen>
+    <dimen name="_280sdp">280.00dp</dimen>
+    <dimen name="_281sdp">281.00dp</dimen>
+    <dimen name="_282sdp">282.00dp</dimen>
+    <dimen name="_283sdp">283.00dp</dimen>
+    <dimen name="_284sdp">284.00dp</dimen>
+    <dimen name="_285sdp">285.00dp</dimen>
+    <dimen name="_286sdp">286.00dp</dimen>
+    <dimen name="_287sdp">287.00dp</dimen>
+    <dimen name="_288sdp">288.00dp</dimen>
+    <dimen name="_289sdp">289.00dp</dimen>
+    <dimen name="_28sdp">28.00dp</dimen>
+    <dimen name="_290sdp">290.00dp</dimen>
+    <dimen name="_291sdp">291.00dp</dimen>
+    <dimen name="_292sdp">292.00dp</dimen>
+    <dimen name="_293sdp">293.00dp</dimen>
+    <dimen name="_294sdp">294.00dp</dimen>
+    <dimen name="_295sdp">295.00dp</dimen>
+    <dimen name="_296sdp">296.00dp</dimen>
+    <dimen name="_297sdp">297.00dp</dimen>
+    <dimen name="_298sdp">298.00dp</dimen>
+    <dimen name="_299sdp">299.00dp</dimen>
+    <dimen name="_29sdp">29.00dp</dimen>
+    <dimen name="_2sdp">2.00dp</dimen>
+    <dimen name="_300sdp">300.00dp</dimen>
+    <dimen name="_301sdp">301.00dp</dimen>
+    <dimen name="_302sdp">302.00dp</dimen>
+    <dimen name="_303sdp">303.00dp</dimen>
+    <dimen name="_304sdp">304.00dp</dimen>
+    <dimen name="_305sdp">305.00dp</dimen>
+    <dimen name="_306sdp">306.00dp</dimen>
+    <dimen name="_307sdp">307.00dp</dimen>
+    <dimen name="_308sdp">308.00dp</dimen>
+    <dimen name="_309sdp">309.00dp</dimen>
+    <dimen name="_30sdp">30.00dp</dimen>
+    <dimen name="_310sdp">310.00dp</dimen>
+    <dimen name="_311sdp">311.00dp</dimen>
+    <dimen name="_312sdp">312.00dp</dimen>
+    <dimen name="_313sdp">313.00dp</dimen>
+    <dimen name="_314sdp">314.00dp</dimen>
+    <dimen name="_315sdp">315.00dp</dimen>
+    <dimen name="_316sdp">316.00dp</dimen>
+    <dimen name="_317sdp">317.00dp</dimen>
+    <dimen name="_318sdp">318.00dp</dimen>
+    <dimen name="_319sdp">319.00dp</dimen>
+    <dimen name="_31sdp">31.00dp</dimen>
+    <dimen name="_320sdp">320.00dp</dimen>
+    <dimen name="_321sdp">321.00dp</dimen>
+    <dimen name="_322sdp">322.00dp</dimen>
+    <dimen name="_323sdp">323.00dp</dimen>
+    <dimen name="_324sdp">324.00dp</dimen>
+    <dimen name="_325sdp">325.00dp</dimen>
+    <dimen name="_326sdp">326.00dp</dimen>
+    <dimen name="_327sdp">327.00dp</dimen>
+    <dimen name="_328sdp">328.00dp</dimen>
+    <dimen name="_329sdp">329.00dp</dimen>
+    <dimen name="_32sdp">32.00dp</dimen>
+    <dimen name="_330sdp">330.00dp</dimen>
+    <dimen name="_331sdp">331.00dp</dimen>
+    <dimen name="_332sdp">332.00dp</dimen>
+    <dimen name="_333sdp">333.00dp</dimen>
+    <dimen name="_334sdp">334.00dp</dimen>
+    <dimen name="_335sdp">335.00dp</dimen>
+    <dimen name="_336sdp">336.00dp</dimen>
+    <dimen name="_337sdp">337.00dp</dimen>
+    <dimen name="_338sdp">338.00dp</dimen>
+    <dimen name="_339sdp">339.00dp</dimen>
+    <dimen name="_33sdp">33.00dp</dimen>
+    <dimen name="_340sdp">340.00dp</dimen>
+    <dimen name="_341sdp">341.00dp</dimen>
+    <dimen name="_342sdp">342.00dp</dimen>
+    <dimen name="_343sdp">343.00dp</dimen>
+    <dimen name="_344sdp">344.00dp</dimen>
+    <dimen name="_345sdp">345.00dp</dimen>
+    <dimen name="_346sdp">346.00dp</dimen>
+    <dimen name="_347sdp">347.00dp</dimen>
+    <dimen name="_348sdp">348.00dp</dimen>
+    <dimen name="_349sdp">349.00dp</dimen>
+    <dimen name="_34sdp">34.00dp</dimen>
+    <dimen name="_350sdp">350.00dp</dimen>
+    <dimen name="_351sdp">351.00dp</dimen>
+    <dimen name="_352sdp">352.00dp</dimen>
+    <dimen name="_353sdp">353.00dp</dimen>
+    <dimen name="_354sdp">354.00dp</dimen>
+    <dimen name="_355sdp">355.00dp</dimen>
+    <dimen name="_356sdp">356.00dp</dimen>
+    <dimen name="_357sdp">357.00dp</dimen>
+    <dimen name="_358sdp">358.00dp</dimen>
+    <dimen name="_359sdp">359.00dp</dimen>
+    <dimen name="_35sdp">35.00dp</dimen>
+    <dimen name="_360sdp">360.00dp</dimen>
+    <dimen name="_361sdp">361.00dp</dimen>
+    <dimen name="_362sdp">362.00dp</dimen>
+    <dimen name="_363sdp">363.00dp</dimen>
+    <dimen name="_364sdp">364.00dp</dimen>
+    <dimen name="_365sdp">365.00dp</dimen>
+    <dimen name="_366sdp">366.00dp</dimen>
+    <dimen name="_367sdp">367.00dp</dimen>
+    <dimen name="_368sdp">368.00dp</dimen>
+    <dimen name="_369sdp">369.00dp</dimen>
+    <dimen name="_36sdp">36.00dp</dimen>
+    <dimen name="_370sdp">370.00dp</dimen>
+    <dimen name="_371sdp">371.00dp</dimen>
+    <dimen name="_372sdp">372.00dp</dimen>
+    <dimen name="_373sdp">373.00dp</dimen>
+    <dimen name="_374sdp">374.00dp</dimen>
+    <dimen name="_375sdp">375.00dp</dimen>
+    <dimen name="_376sdp">376.00dp</dimen>
+    <dimen name="_377sdp">377.00dp</dimen>
+    <dimen name="_378sdp">378.00dp</dimen>
+    <dimen name="_379sdp">379.00dp</dimen>
+    <dimen name="_37sdp">37.00dp</dimen>
+    <dimen name="_380sdp">380.00dp</dimen>
+    <dimen name="_381sdp">381.00dp</dimen>
+    <dimen name="_382sdp">382.00dp</dimen>
+    <dimen name="_383sdp">383.00dp</dimen>
+    <dimen name="_384sdp">384.00dp</dimen>
+    <dimen name="_385sdp">385.00dp</dimen>
+    <dimen name="_386sdp">386.00dp</dimen>
+    <dimen name="_387sdp">387.00dp</dimen>
+    <dimen name="_388sdp">388.00dp</dimen>
+    <dimen name="_389sdp">389.00dp</dimen>
+    <dimen name="_38sdp">38.00dp</dimen>
+    <dimen name="_390sdp">390.00dp</dimen>
+    <dimen name="_391sdp">391.00dp</dimen>
+    <dimen name="_392sdp">392.00dp</dimen>
+    <dimen name="_393sdp">393.00dp</dimen>
+    <dimen name="_394sdp">394.00dp</dimen>
+    <dimen name="_395sdp">395.00dp</dimen>
+    <dimen name="_396sdp">396.00dp</dimen>
+    <dimen name="_397sdp">397.00dp</dimen>
+    <dimen name="_398sdp">398.00dp</dimen>
+    <dimen name="_399sdp">399.00dp</dimen>
+    <dimen name="_39sdp">39.00dp</dimen>
+    <dimen name="_3sdp">3.00dp</dimen>
+    <dimen name="_400sdp">400.00dp</dimen>
+    <dimen name="_401sdp">401.00dp</dimen>
+    <dimen name="_402sdp">402.00dp</dimen>
+    <dimen name="_403sdp">403.00dp</dimen>
+    <dimen name="_404sdp">404.00dp</dimen>
+    <dimen name="_405sdp">405.00dp</dimen>
+    <dimen name="_406sdp">406.00dp</dimen>
+    <dimen name="_407sdp">407.00dp</dimen>
+    <dimen name="_408sdp">408.00dp</dimen>
+    <dimen name="_409sdp">409.00dp</dimen>
+    <dimen name="_40sdp">40.00dp</dimen>
+    <dimen name="_410sdp">410.00dp</dimen>
+    <dimen name="_411sdp">411.00dp</dimen>
+    <dimen name="_412sdp">412.00dp</dimen>
+    <dimen name="_413sdp">413.00dp</dimen>
+    <dimen name="_414sdp">414.00dp</dimen>
+    <dimen name="_415sdp">415.00dp</dimen>
+    <dimen name="_416sdp">416.00dp</dimen>
+    <dimen name="_417sdp">417.00dp</dimen>
+    <dimen name="_418sdp">418.00dp</dimen>
+    <dimen name="_419sdp">419.00dp</dimen>
+    <dimen name="_41sdp">41.00dp</dimen>
+    <dimen name="_420sdp">420.00dp</dimen>
+    <dimen name="_421sdp">421.00dp</dimen>
+    <dimen name="_422sdp">422.00dp</dimen>
+    <dimen name="_423sdp">423.00dp</dimen>
+    <dimen name="_424sdp">424.00dp</dimen>
+    <dimen name="_425sdp">425.00dp</dimen>
+    <dimen name="_426sdp">426.00dp</dimen>
+    <dimen name="_427sdp">427.00dp</dimen>
+    <dimen name="_428sdp">428.00dp</dimen>
+    <dimen name="_429sdp">429.00dp</dimen>
+    <dimen name="_42sdp">42.00dp</dimen>
+    <dimen name="_430sdp">430.00dp</dimen>
+    <dimen name="_431sdp">431.00dp</dimen>
+    <dimen name="_432sdp">432.00dp</dimen>
+    <dimen name="_433sdp">433.00dp</dimen>
+    <dimen name="_434sdp">434.00dp</dimen>
+    <dimen name="_435sdp">435.00dp</dimen>
+    <dimen name="_436sdp">436.00dp</dimen>
+    <dimen name="_437sdp">437.00dp</dimen>
+    <dimen name="_438sdp">438.00dp</dimen>
+    <dimen name="_439sdp">439.00dp</dimen>
+    <dimen name="_43sdp">43.00dp</dimen>
+    <dimen name="_440sdp">440.00dp</dimen>
+    <dimen name="_441sdp">441.00dp</dimen>
+    <dimen name="_442sdp">442.00dp</dimen>
+    <dimen name="_443sdp">443.00dp</dimen>
+    <dimen name="_444sdp">444.00dp</dimen>
+    <dimen name="_445sdp">445.00dp</dimen>
+    <dimen name="_446sdp">446.00dp</dimen>
+    <dimen name="_447sdp">447.00dp</dimen>
+    <dimen name="_448sdp">448.00dp</dimen>
+    <dimen name="_449sdp">449.00dp</dimen>
+    <dimen name="_44sdp">44.00dp</dimen>
+    <dimen name="_450sdp">450.00dp</dimen>
+    <dimen name="_451sdp">451.00dp</dimen>
+    <dimen name="_452sdp">452.00dp</dimen>
+    <dimen name="_453sdp">453.00dp</dimen>
+    <dimen name="_454sdp">454.00dp</dimen>
+    <dimen name="_455sdp">455.00dp</dimen>
+    <dimen name="_456sdp">456.00dp</dimen>
+    <dimen name="_457sdp">457.00dp</dimen>
+    <dimen name="_458sdp">458.00dp</dimen>
+    <dimen name="_459sdp">459.00dp</dimen>
+    <dimen name="_45sdp">45.00dp</dimen>
+    <dimen name="_460sdp">460.00dp</dimen>
+    <dimen name="_461sdp">461.00dp</dimen>
+    <dimen name="_462sdp">462.00dp</dimen>
+    <dimen name="_463sdp">463.00dp</dimen>
+    <dimen name="_464sdp">464.00dp</dimen>
+    <dimen name="_465sdp">465.00dp</dimen>
+    <dimen name="_466sdp">466.00dp</dimen>
+    <dimen name="_467sdp">467.00dp</dimen>
+    <dimen name="_468sdp">468.00dp</dimen>
+    <dimen name="_469sdp">469.00dp</dimen>
+    <dimen name="_46sdp">46.00dp</dimen>
+    <dimen name="_470sdp">470.00dp</dimen>
+    <dimen name="_471sdp">471.00dp</dimen>
+    <dimen name="_472sdp">472.00dp</dimen>
+    <dimen name="_473sdp">473.00dp</dimen>
+    <dimen name="_474sdp">474.00dp</dimen>
+    <dimen name="_475sdp">475.00dp</dimen>
+    <dimen name="_476sdp">476.00dp</dimen>
+    <dimen name="_477sdp">477.00dp</dimen>
+    <dimen name="_478sdp">478.00dp</dimen>
+    <dimen name="_479sdp">479.00dp</dimen>
+    <dimen name="_47sdp">47.00dp</dimen>
+    <dimen name="_480sdp">480.00dp</dimen>
+    <dimen name="_481sdp">481.00dp</dimen>
+    <dimen name="_482sdp">482.00dp</dimen>
+    <dimen name="_483sdp">483.00dp</dimen>
+    <dimen name="_484sdp">484.00dp</dimen>
+    <dimen name="_485sdp">485.00dp</dimen>
+    <dimen name="_486sdp">486.00dp</dimen>
+    <dimen name="_487sdp">487.00dp</dimen>
+    <dimen name="_488sdp">488.00dp</dimen>
+    <dimen name="_489sdp">489.00dp</dimen>
+    <dimen name="_48sdp">48.00dp</dimen>
+    <dimen name="_490sdp">490.00dp</dimen>
+    <dimen name="_491sdp">491.00dp</dimen>
+    <dimen name="_492sdp">492.00dp</dimen>
+    <dimen name="_493sdp">493.00dp</dimen>
+    <dimen name="_494sdp">494.00dp</dimen>
+    <dimen name="_495sdp">495.00dp</dimen>
+    <dimen name="_496sdp">496.00dp</dimen>
+    <dimen name="_497sdp">497.00dp</dimen>
+    <dimen name="_498sdp">498.00dp</dimen>
+    <dimen name="_499sdp">499.00dp</dimen>
+    <dimen name="_49sdp">49.00dp</dimen>
+    <dimen name="_4sdp">4.00dp</dimen>
+    <dimen name="_500sdp">500.00dp</dimen>
+    <dimen name="_501sdp">501.00dp</dimen>
+    <dimen name="_502sdp">502.00dp</dimen>
+    <dimen name="_503sdp">503.00dp</dimen>
+    <dimen name="_504sdp">504.00dp</dimen>
+    <dimen name="_505sdp">505.00dp</dimen>
+    <dimen name="_506sdp">506.00dp</dimen>
+    <dimen name="_507sdp">507.00dp</dimen>
+    <dimen name="_508sdp">508.00dp</dimen>
+    <dimen name="_509sdp">509.00dp</dimen>
+    <dimen name="_50sdp">50.00dp</dimen>
+    <dimen name="_510sdp">510.00dp</dimen>
+    <dimen name="_511sdp">511.00dp</dimen>
+    <dimen name="_512sdp">512.00dp</dimen>
+    <dimen name="_513sdp">513.00dp</dimen>
+    <dimen name="_514sdp">514.00dp</dimen>
+    <dimen name="_515sdp">515.00dp</dimen>
+    <dimen name="_516sdp">516.00dp</dimen>
+    <dimen name="_517sdp">517.00dp</dimen>
+    <dimen name="_518sdp">518.00dp</dimen>
+    <dimen name="_519sdp">519.00dp</dimen>
+    <dimen name="_51sdp">51.00dp</dimen>
+    <dimen name="_520sdp">520.00dp</dimen>
+    <dimen name="_521sdp">521.00dp</dimen>
+    <dimen name="_522sdp">522.00dp</dimen>
+    <dimen name="_523sdp">523.00dp</dimen>
+    <dimen name="_524sdp">524.00dp</dimen>
+    <dimen name="_525sdp">525.00dp</dimen>
+    <dimen name="_526sdp">526.00dp</dimen>
+    <dimen name="_527sdp">527.00dp</dimen>
+    <dimen name="_528sdp">528.00dp</dimen>
+    <dimen name="_529sdp">529.00dp</dimen>
+    <dimen name="_52sdp">52.00dp</dimen>
+    <dimen name="_530sdp">530.00dp</dimen>
+    <dimen name="_531sdp">531.00dp</dimen>
+    <dimen name="_532sdp">532.00dp</dimen>
+    <dimen name="_533sdp">533.00dp</dimen>
+    <dimen name="_534sdp">534.00dp</dimen>
+    <dimen name="_535sdp">535.00dp</dimen>
+    <dimen name="_536sdp">536.00dp</dimen>
+    <dimen name="_537sdp">537.00dp</dimen>
+    <dimen name="_538sdp">538.00dp</dimen>
+    <dimen name="_539sdp">539.00dp</dimen>
+    <dimen name="_53sdp">53.00dp</dimen>
+    <dimen name="_540sdp">540.00dp</dimen>
+    <dimen name="_541sdp">541.00dp</dimen>
+    <dimen name="_542sdp">542.00dp</dimen>
+    <dimen name="_543sdp">543.00dp</dimen>
+    <dimen name="_544sdp">544.00dp</dimen>
+    <dimen name="_545sdp">545.00dp</dimen>
+    <dimen name="_546sdp">546.00dp</dimen>
+    <dimen name="_547sdp">547.00dp</dimen>
+    <dimen name="_548sdp">548.00dp</dimen>
+    <dimen name="_549sdp">549.00dp</dimen>
+    <dimen name="_54sdp">54.00dp</dimen>
+    <dimen name="_550sdp">550.00dp</dimen>
+    <dimen name="_551sdp">551.00dp</dimen>
+    <dimen name="_552sdp">552.00dp</dimen>
+    <dimen name="_553sdp">553.00dp</dimen>
+    <dimen name="_554sdp">554.00dp</dimen>
+    <dimen name="_555sdp">555.00dp</dimen>
+    <dimen name="_556sdp">556.00dp</dimen>
+    <dimen name="_557sdp">557.00dp</dimen>
+    <dimen name="_558sdp">558.00dp</dimen>
+    <dimen name="_559sdp">559.00dp</dimen>
+    <dimen name="_55sdp">55.00dp</dimen>
+    <dimen name="_560sdp">560.00dp</dimen>
+    <dimen name="_561sdp">561.00dp</dimen>
+    <dimen name="_562sdp">562.00dp</dimen>
+    <dimen name="_563sdp">563.00dp</dimen>
+    <dimen name="_564sdp">564.00dp</dimen>
+    <dimen name="_565sdp">565.00dp</dimen>
+    <dimen name="_566sdp">566.00dp</dimen>
+    <dimen name="_567sdp">567.00dp</dimen>
+    <dimen name="_568sdp">568.00dp</dimen>
+    <dimen name="_569sdp">569.00dp</dimen>
+    <dimen name="_56sdp">56.00dp</dimen>
+    <dimen name="_570sdp">570.00dp</dimen>
+    <dimen name="_571sdp">571.00dp</dimen>
+    <dimen name="_572sdp">572.00dp</dimen>
+    <dimen name="_573sdp">573.00dp</dimen>
+    <dimen name="_574sdp">574.00dp</dimen>
+    <dimen name="_575sdp">575.00dp</dimen>
+    <dimen name="_576sdp">576.00dp</dimen>
+    <dimen name="_577sdp">577.00dp</dimen>
+    <dimen name="_578sdp">578.00dp</dimen>
+    <dimen name="_579sdp">579.00dp</dimen>
+    <dimen name="_57sdp">57.00dp</dimen>
+    <dimen name="_580sdp">580.00dp</dimen>
+    <dimen name="_581sdp">581.00dp</dimen>
+    <dimen name="_582sdp">582.00dp</dimen>
+    <dimen name="_583sdp">583.00dp</dimen>
+    <dimen name="_584sdp">584.00dp</dimen>
+    <dimen name="_585sdp">585.00dp</dimen>
+    <dimen name="_586sdp">586.00dp</dimen>
+    <dimen name="_587sdp">587.00dp</dimen>
+    <dimen name="_588sdp">588.00dp</dimen>
+    <dimen name="_589sdp">589.00dp</dimen>
+    <dimen name="_58sdp">58.00dp</dimen>
+    <dimen name="_590sdp">590.00dp</dimen>
+    <dimen name="_591sdp">591.00dp</dimen>
+    <dimen name="_592sdp">592.00dp</dimen>
+    <dimen name="_593sdp">593.00dp</dimen>
+    <dimen name="_594sdp">594.00dp</dimen>
+    <dimen name="_595sdp">595.00dp</dimen>
+    <dimen name="_596sdp">596.00dp</dimen>
+    <dimen name="_597sdp">597.00dp</dimen>
+    <dimen name="_598sdp">598.00dp</dimen>
+    <dimen name="_599sdp">599.00dp</dimen>
+    <dimen name="_59sdp">59.00dp</dimen>
+    <dimen name="_5sdp">5.00dp</dimen>
+    <dimen name="_600sdp">600.00dp</dimen>
+    <dimen name="_60sdp">60.00dp</dimen>
+    <dimen name="_61sdp">61.00dp</dimen>
+    <dimen name="_62sdp">62.00dp</dimen>
+    <dimen name="_63sdp">63.00dp</dimen>
+    <dimen name="_64sdp">64.00dp</dimen>
+    <dimen name="_65sdp">65.00dp</dimen>
+    <dimen name="_66sdp">66.00dp</dimen>
+    <dimen name="_67sdp">67.00dp</dimen>
+    <dimen name="_68sdp">68.00dp</dimen>
+    <dimen name="_69sdp">69.00dp</dimen>
+    <dimen name="_6sdp">6.00dp</dimen>
+    <dimen name="_70sdp">70.00dp</dimen>
+    <dimen name="_71sdp">71.00dp</dimen>
+    <dimen name="_72sdp">72.00dp</dimen>
+    <dimen name="_73sdp">73.00dp</dimen>
+    <dimen name="_74sdp">74.00dp</dimen>
+    <dimen name="_75sdp">75.00dp</dimen>
+    <dimen name="_76sdp">76.00dp</dimen>
+    <dimen name="_77sdp">77.00dp</dimen>
+    <dimen name="_78sdp">78.00dp</dimen>
+    <dimen name="_79sdp">79.00dp</dimen>
+    <dimen name="_7sdp">7.00dp</dimen>
+    <dimen name="_80sdp">80.00dp</dimen>
+    <dimen name="_81sdp">81.00dp</dimen>
+    <dimen name="_82sdp">82.00dp</dimen>
+    <dimen name="_83sdp">83.00dp</dimen>
+    <dimen name="_84sdp">84.00dp</dimen>
+    <dimen name="_85sdp">85.00dp</dimen>
+    <dimen name="_86sdp">86.00dp</dimen>
+    <dimen name="_87sdp">87.00dp</dimen>
+    <dimen name="_88sdp">88.00dp</dimen>
+    <dimen name="_89sdp">89.00dp</dimen>
+    <dimen name="_8sdp">8.00dp</dimen>
+    <dimen name="_90sdp">90.00dp</dimen>
+    <dimen name="_91sdp">91.00dp</dimen>
+    <dimen name="_92sdp">92.00dp</dimen>
+    <dimen name="_93sdp">93.00dp</dimen>
+    <dimen name="_94sdp">94.00dp</dimen>
+    <dimen name="_95sdp">95.00dp</dimen>
+    <dimen name="_96sdp">96.00dp</dimen>
+    <dimen name="_97sdp">97.00dp</dimen>
+    <dimen name="_98sdp">98.00dp</dimen>
+    <dimen name="_99sdp">99.00dp</dimen>
+    <dimen name="_9sdp">9.00dp</dimen>
+    <dimen name="_minus10sdp">-10.00dp</dimen>
+    <dimen name="_minus11sdp">-11.00dp</dimen>
+    <dimen name="_minus12sdp">-12.00dp</dimen>
+    <dimen name="_minus13sdp">-13.00dp</dimen>
+    <dimen name="_minus14sdp">-14.00dp</dimen>
+    <dimen name="_minus15sdp">-15.00dp</dimen>
+    <dimen name="_minus16sdp">-16.00dp</dimen>
+    <dimen name="_minus17sdp">-17.00dp</dimen>
+    <dimen name="_minus18sdp">-18.00dp</dimen>
+    <dimen name="_minus19sdp">-19.00dp</dimen>
+    <dimen name="_minus1sdp">-1.00dp</dimen>
+    <dimen name="_minus20sdp">-20.00dp</dimen>
+    <dimen name="_minus21sdp">-21.00dp</dimen>
+    <dimen name="_minus22sdp">-22.00dp</dimen>
+    <dimen name="_minus23sdp">-23.00dp</dimen>
+    <dimen name="_minus24sdp">-24.00dp</dimen>
+    <dimen name="_minus25sdp">-25.00dp</dimen>
+    <dimen name="_minus26sdp">-26.00dp</dimen>
+    <dimen name="_minus27sdp">-27.00dp</dimen>
+    <dimen name="_minus28sdp">-28.00dp</dimen>
+    <dimen name="_minus29sdp">-29.00dp</dimen>
+    <dimen name="_minus2sdp">-2.00dp</dimen>
+    <dimen name="_minus30sdp">-30.00dp</dimen>
+    <dimen name="_minus31sdp">-31.00dp</dimen>
+    <dimen name="_minus32sdp">-32.00dp</dimen>
+    <dimen name="_minus33sdp">-33.00dp</dimen>
+    <dimen name="_minus34sdp">-34.00dp</dimen>
+    <dimen name="_minus35sdp">-35.00dp</dimen>
+    <dimen name="_minus36sdp">-36.00dp</dimen>
+    <dimen name="_minus37sdp">-37.00dp</dimen>
+    <dimen name="_minus38sdp">-38.00dp</dimen>
+    <dimen name="_minus39sdp">-39.00dp</dimen>
+    <dimen name="_minus3sdp">-3.00dp</dimen>
+    <dimen name="_minus40sdp">-40.00dp</dimen>
+    <dimen name="_minus41sdp">-41.00dp</dimen>
+    <dimen name="_minus42sdp">-42.00dp</dimen>
+    <dimen name="_minus43sdp">-43.00dp</dimen>
+    <dimen name="_minus44sdp">-44.00dp</dimen>
+    <dimen name="_minus45sdp">-45.00dp</dimen>
+    <dimen name="_minus46sdp">-46.00dp</dimen>
+    <dimen name="_minus47sdp">-47.00dp</dimen>
+    <dimen name="_minus48sdp">-48.00dp</dimen>
+    <dimen name="_minus49sdp">-49.00dp</dimen>
+    <dimen name="_minus4sdp">-4.00dp</dimen>
+    <dimen name="_minus50sdp">-50.00dp</dimen>
+    <dimen name="_minus51sdp">-51.00dp</dimen>
+    <dimen name="_minus52sdp">-52.00dp</dimen>
+    <dimen name="_minus53sdp">-53.00dp</dimen>
+    <dimen name="_minus54sdp">-54.00dp</dimen>
+    <dimen name="_minus55sdp">-55.00dp</dimen>
+    <dimen name="_minus56sdp">-56.00dp</dimen>
+    <dimen name="_minus57sdp">-57.00dp</dimen>
+    <dimen name="_minus58sdp">-58.00dp</dimen>
+    <dimen name="_minus59sdp">-59.00dp</dimen>
+    <dimen name="_minus5sdp">-5.00dp</dimen>
+    <dimen name="_minus60sdp">-60.00dp</dimen>
+    <dimen name="_minus6sdp">-6.00dp</dimen>
+    <dimen name="_minus7sdp">-7.00dp</dimen>
+    <dimen name="_minus8sdp">-8.00dp</dimen>
+    <dimen name="_minus9sdp">-9.00dp</dimen>
+    <dimen name="bb_default_elevation">@dimen/_8sdp</dimen>
+    <dimen name="bb_fake_shadow_height">@dimen/_4sdp</dimen>
+    <dimen name="bb_height">@dimen/_56sdp</dimen>
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_height">66dp</dimen>
+    <dimen name="bottom_navigation_icon">30dp</dimen>
+    <dimen name="bottom_navigation_line_width">1dp</dimen>
+    <dimen name="bottom_navigation_max_width">168dp</dimen>
+    <dimen name="bottom_navigation_min_width">104dp</dimen>
+    <dimen name="bottom_navigation_padding_bottom">7dp</dimen>
+    <dimen name="bottom_navigation_padding_left">12dp</dimen>
+    <dimen name="bottom_navigation_padding_right">12dp</dimen>
+    <dimen name="bottom_navigation_padding_top_active">5dp</dimen>
+    <dimen name="bottom_navigation_padding_top_inactive">9dp</dimen>
+    <dimen name="bottom_navigation_padding_top_inactive_without_text">16dp</dimen>
+    <dimen name="bottom_navigation_shadow_height">0dp</dimen>
+    <dimen name="bottom_navigation_shadow_height_without_colored_background">0dp</dimen>
+    <dimen name="bottom_navigation_text_size_active">14sp</dimen>
+    <dimen name="bottom_navigation_text_size_inactive">12sp</dimen>
+    <dimen name="btn_corner_radius">2dp</dimen>
+    <dimen name="btn_flat_padding">8dp</dimen>
+    <dimen name="btn_margin">4dp</dimen>
+    <dimen name="btn_min_height">36dp</dimen>
+    <dimen name="btn_min_width">88dp</dimen>
+    <dimen name="btn_normal_margin">4dp</dimen>
+    <dimen name="btn_normal_padding">8dp</dimen>
+    <dimen name="btn_padding">16dp</dimen>
+    <dimen name="button_min_width">90dp</dimen>
+    <dimen name="content_box_margin_bottom">35dp</dimen>
+    <dimen name="default_font">13sp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="jc_progress_dialog_margin_top">80dp</dimen>
+    <dimen name="jc_volume_dialog_margin_left">24dp</dimen>
+    <dimen name="jz_start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="jz_start_button_w_h_normal">45dp</dimen>
+    <dimen name="large_font">15sp</dimen>
+    <dimen name="ms__item_height">48dp</dimen>
+    <dimen name="ms__padding_left">24dp</dimen>
+    <dimen name="ms__padding_top">12dp</dimen>
+    <dimen name="ms__popup_padding_left">24dp</dimen>
+    <dimen name="ms__popup_padding_top">12dp</dimen>
+    <dimen name="small_font">11sp</dimen>
+    <dimen name="start_button_w_h_fullscreen">62dp</dimen>
+    <dimen name="start_button_w_h_normal">45dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_height">3dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_margin_top">10dp</dimen>
+    <dimen name="stpi_default_bottom_indicator_width">50dp</dimen>
+    <dimen name="stpi_default_circle_radius">10dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_label_margin_top">2dp</dimen>
+    <dimen name="stpi_default_label_size">12sp</dimen>
+    <dimen name="stpi_default_line_margin">5dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">2dp</dimen>
+    <dimen name="stpi_default_text_size">12sp</dimen>
+    <dimen name="stpi_done_icon_size">18dp</dimen>
+    <dimen name="stpi_two_dp">2dp</dimen>
+    <dimen name="tedbottompicker_grid_layout_margin">1dp</dimen>
+    <dimen name="tedbottompicker_selected_image_height">90dp</dimen>
+    <dimen name="tv_content_margin">20dp</dimen>
+    <dimen name="very_large_font">22dp</dimen>
+    <item name="FloatingText_wrapper" type="id"/>
+    <item name="bb_bottom_bar_appearance_id" type="id"/>
+    <item name="bb_bottom_bar_color_id" type="id"/>
+    <item name="jz_fullscreen_id" type="id"/>
+    <item name="jz_tiny_id" type="id"/>
+    <item name="moretype_item_viewtype" type="id"/>
+    <item name="statusbarutil_fake_status_bar_view" type="id"/>
+    <item name="statusbarutil_translucent_view" type="id"/>
+    <string name="app_name">Vasni</string>
+    <string name="click_to_restart">پخش مجدد</string>
+    <string name="default_notification_channel_id">default_channel</string>
+    <string name="done">تایید</string>
+    <string name="loadingIcon"></string>
+    <string name="no_image">لیست تصاویر دستگاه شما خالی است.</string>
+    <string name="no_url">آدرس یافت نشد</string>
+    <string name="permission_btn_next">اجازه بده</string>
+    <string name="permission_camera">Camera</string>
+    <string name="permission_cancel">بیخیال</string>
+    <string name="permission_denied">برای استفاده از تمامی امکانات برنامه می بایست دسترسی خواسته شده داده شود.</string>
+    <string name="permission_denied_with_naac">"Please open permissions before using.\n\nSetup path:
+        Apps->%3$s->Permissions"
+    </string>
+    <string name="permission_dialog_msg">For your normal use %s, you need the following permissions</string>
+    <string name="permission_dialog_title">Start %s</string>
+    <string name="permission_ensure">باشه</string>
+    <string name="permission_go_to_setting">رفتن به تنظیمات</string>
+    <string name="permission_location">Location</string>
+    <string name="permission_reject">رد کردن</string>
+    <string name="permission_storage">دسترسی به حافظه</string>
+    <string name="permission_title">%s</string>
+    <string name="playIcon"></string>
+    <string name="replay">تکرار</string>
+    <string name="select_max_count">Already %1$d images selected</string>
+    <string name="select_min_count">You have to choice %1$d images</string>
+    <string name="stopIcon"></string>
+    <string name="tedbottompicker_title">انتخاب تصویر</string>
+    <string name="tips_not_wifi">اینترنت wifi متصل نیست و برای ادامه ی این بخش باید از اینترنت همراه استفاده کنیم. مشکلی
+        نیست؟
+    </string>
+    <string name="tips_not_wifi_cancel">توقف</string>
+    <string name="tips_not_wifi_confirm">ادامه</string>
+    <string name="video_loading_failed">خطا در بارگذاری ویدیو</string>
+    <style name="BB_BottomBarBadge_Text" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="BB_BottomBarItem">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:layout_width">wrap_content</item>
+        <!-- layout_height is ignored since the height is set programmatically in BottomBar
+        .updateItems() -->
+        <item name="android:layout_height">@dimen/bb_height</item>
+    </style>
+    <style name="BB_BottomBarItem_Fixed.TitleAppearance" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/default_font</item>
+    </style>
+    <style name="BB_BottomBarItem_Shifting.TitleAppearance" parent="BB_BottomBarItem_Fixed.TitleAppearance">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="BB_BottomBarItem_Tablet">
+        <item name="android:layout_width">@dimen/_50sdp</item>
+        <item name="android:layout_height">@dimen/_50sdp</item>
+    </style>
+    <style name="BB_BottomBarItem_TitleStyle">
+        <!-- Material spec: "Avoid long text labels as these labels do not truncate or wrap." -->
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="BottomDialogs" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowAnimationStyle">@style/BottomDialogsAnimation</item>
+    </style>
+    <style name="BottomDialogsAnimation">
+        <item name="android:windowEnterAnimation">@anim/sheet_show</item>
+        <item name="android:windowExitAnimation">@anim/sheet_hide</item>
+    </style>
+    <style name="CustomTheme_Dialog" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@style/notAnimation</item>
+    </style>
+    <style name="MultiWaveHeader"/>
+    <style name="MultiWaveHeader.Wave">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+    <style name="PermissionAnimFade">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+    <style name="PermissionAnimModal">
+        <item name="android:windowEnterAnimation">@anim/modal_in</item>
+        <item name="android:windowExitAnimation">@anim/modal_out</item>
+    </style>
+    <style name="PermissionAnimScale">
+        <item name="android:windowEnterAnimation">@anim/scale_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_out</item>
+    </style>
+    <style name="PermissionBaseWhiteStyle">
+        <item name="PermissionTitleColor">@color/permissionColorWhite</item>
+        <item name="PermissionMsgColor">@color/permissionColorWhite</item>
+        <item name="PermissionItemTextColor">@color/permissionColorWhite</item>
+        <item name="PermissionButtonTextColor">@color/permissionColorWhite</item>
+        <item name="PermissionIconFilterColor">@color/permissionColorWhite</item>
+    </style>
+    <style name="PermissionDefaultBlueStyle" parent="PermissionBaseWhiteStyle">
+        <item name="PermissionButtonBackground">@drawable/shape_btn_border_white</item>
+        <item name="PermissionBackround">@drawable/shape_btn_blue</item>
+    </style>
+    <style name="PermissionDefaultGreenStyle" parent="PermissionBaseWhiteStyle">
+        <item name="PermissionButtonBackground">@drawable/shape_btn_green_light</item>
+        <item name="PermissionBackround">@drawable/permission_card1</item>
+        <item name="PermissionBgFilterColor">@color/permissionBgColorGreenLight</item>
+    </style>
+    <style name="PermissionDefaultNormalStyle">
+        <item name="PermissionTitleColor">#737373</item>
+        <item name="PermissionMsgColor">#737373</item>
+        <item name="PermissionItemTextColor">#737373</item>
+        <item name="PermissionButtonBackground">@drawable/shape_btn_next</item>
+        <item name="PermissionBackround">@drawable/shape_bg_white</item>
+        <item name="PermissionButtonTextColor">@android:color/white</item>
+    </style>
+    <style name="Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="jc_popup_toast_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="jc_style_dialog_progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/jc_popup_toast_anim</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="jc_vertical_progressBar">
+        <item name="android:maxWidth">12dp</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:progressDrawable">@drawable/jc_volume_progress_bg</item>
+        <item name="android:indeterminateDuration">3500</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="jz_popup_toast_anim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+    <style name="jz_style_dialog_progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/jz_popup_toast_anim</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="notAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+</resources>

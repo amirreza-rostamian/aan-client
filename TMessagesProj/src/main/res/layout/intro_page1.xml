@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imv_intro"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_400sdp"
+        app:srcCompat="@drawable/intro1"
+        android:layout_marginTop="@dimen/_minus20sdp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"/>
+
+    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+        android:id="@+id/tv_title_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:textSize="@dimen/very_large_font"
+        android:textColor="@color/colorIntroTitleBold"
+        android:text="@string/intro_page1_title_bold"/>
+
+    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/_20sdp"
+        android:textSize="@dimen/large_font"
+        android:layout_below="@+id/tv_title_bold"
+        android:textColor="@color/colorIntroTitle"
+        android:text="@string/intro_page1_title"/>
+
+
+    <me.himanshusoni.chatmessageview.ui.MTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_20sdp"
+        android:textSize="@dimen/large_font"
+        android:layout_below="@+id/imv_intro"
+        android:textColor="@color/colorIntroText"
+        android:text="@string/intro_page1_text"/>
+
+</RelativeLayout>

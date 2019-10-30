@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:layout_marginRight="@dimen/_20sdp"
+    android:orientation="horizontal">
+
+    <me.himanshusoni.chatmessageview.ui.MButton
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginLeft="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_weight="0.25"
+        android:background="@drawable/shape_rect_bg_btn_role"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_2sdp"
+        android:text="بیخیال"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+    <me.himanshusoni.chatmessageview.ui.MButton
+        android:layout_width="0dp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginRight="@dimen/_4sdp"
+        android:layout_weight="0.75"
+        android:background="@drawable/shape_rect_bg_btn_role"
+        android:gravity="center"
+        android:text="ادامه میدی؟(یک ستاره باید بدی)"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_13sdp" />
+
+</LinearLayout>

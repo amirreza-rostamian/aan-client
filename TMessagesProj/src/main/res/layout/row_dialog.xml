@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_10sdp">
+
+        <RadioButton
+            android:id="@+id/rb_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_dialog_content"
+            android:layout_alignParentRight="true"
+            android:padding="@dimen/_2sdp" />
+
+        <me.himanshusoni.chatmessageview.ui.MTextView
+            android:id="@+id/tv_dialog_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/rb_dialog"
+            android:gravity="right|center"
+            android:padding="@dimen/_5sdp"
+            android:text="Name"
+            android:textColor="@color/colorGray"
+            android:textSize="@dimen/default_font" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
